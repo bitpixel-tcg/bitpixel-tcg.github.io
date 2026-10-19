@@ -459,7 +459,7 @@ export default function App() {
             standard for collecting.
           </p>
         </div>
-        <a className="seller-card seller-card--blue" href="https://www.cardmarket.com/" target="_blank" rel="noreferrer">
+        <a className="seller-card seller-card--blue" href="#marketplaces" target="_blank" rel="noreferrer">
           <span className="seller-number">01</span>
           <div>
             <span>UNITED KINGDOM · INDEPENDENT SELLER</span>
@@ -468,7 +468,7 @@ export default function App() {
           </div>
           <ArrowIcon />
         </a>
-        <a className="seller-card seller-card--red" href="https://www.ebay.com/" target="_blank" rel="noreferrer">
+        <a className="seller-card seller-card--red" href="#marketplaces" target="_blank" rel="noreferrer">
           <span className="seller-number">02</span>
           <div>
             <span>SWEDEN · INDEPENDENT SELLER</span>
