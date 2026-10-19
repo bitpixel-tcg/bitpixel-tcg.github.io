@@ -17,7 +17,7 @@ const marketplaceProfiles = [
     location: "United Kingdom",
     marketplace: "eBay",
     description: "View all Blue Byte listings on eBay.",
-    href: "https://www.ebay.com/",
+    href: "https://www.ebay.co.uk/usr/bitpixeltcg",
     color: "blue",
   },
   {
@@ -25,7 +25,7 @@ const marketplaceProfiles = [
     location: "United Kingdom",
     marketplace: "Cardmarket",
     description: "Browse Blue Byte's complete Cardmarket inventory.",
-    href: "https://www.cardmarket.com/",
+    href: "https://www.cardmarket.com/en/Pokemon/Users/Asymptotic-Wanderer",
     color: "blue",
   },
   {
@@ -33,7 +33,7 @@ const marketplaceProfiles = [
     location: "Sweden",
     marketplace: "Tradera",
     description: "View all Red Pixel auctions and listings on Tradera.",
-    href: "https://www.tradera.com/",
+    href: "https://www.tradera.com/profile/items/6354053/linus8888",
     color: "red",
   },
   {
@@ -41,7 +41,7 @@ const marketplaceProfiles = [
     location: "Sweden",
     marketplace: "Cardmarket",
     description: "Browse Red Pixel's complete Cardmarket inventory.",
-    href: "https://www.cardmarket.com/",
+    href: "https://www.cardmarket.com/en/Pokemon/Users/Flabb",
     color: "red",
   },
 ] as const;
