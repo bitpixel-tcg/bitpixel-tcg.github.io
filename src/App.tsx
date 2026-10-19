@@ -17,38 +17,66 @@ const marketplaceProfiles = [
     location: "United Kingdom",
     marketplace: "eBay",
     description: "View all Blue Byte listings on eBay.",
-    href: "https://www.ebay.co.uk/usr/bitpixeltcg",
+    href: "https://www.ebay.com/",
     color: "blue",
+    sectionAnchor: "blue-byte-marketplaces",
   },
   {
     owner: "Blue Byte",
     location: "United Kingdom",
     marketplace: "Cardmarket",
     description: "Browse Blue Byte's complete Cardmarket inventory.",
-    href: "https://www.cardmarket.com/en/Pokemon/Users/Asymptotic-Wanderer",
+    href: "https://www.cardmarket.com/",
     color: "blue",
+    sectionAnchor: null,
   },
   {
     owner: "Red Pixel",
     location: "Sweden",
     marketplace: "Tradera",
     description: "View all Red Pixel auctions and listings on Tradera.",
-    href: "https://www.tradera.com/profile/items/6354053/linus8888",
+    href: "https://www.tradera.com/",
     color: "red",
+    sectionAnchor: "red-pixel-marketplaces",
   },
   {
     owner: "Red Pixel",
     location: "Sweden",
     marketplace: "Cardmarket",
     description: "Browse Red Pixel's complete Cardmarket inventory.",
-    href: "https://www.cardmarket.com/en/Pokemon/Users/Flabb",
+    href: "https://www.cardmarket.com/",
     color: "red",
+    sectionAnchor: null,
   },
 ] as const;
 
-function PixelMark({ small = false }: { small?: boolean }) {
+const SAVED_COOKIE = "bit_pixel_saved";
+
+function readSavedListings() {
+  if (typeof document === "undefined") return [];
+
+  const value = document.cookie
+    .split("; ")
+    .find((cookie) => cookie.startsWith(`${SAVED_COOKIE}=`))
+    ?.split("=")
+    .slice(1)
+    .join("=");
+
+  if (!value) return [];
+
+  try {
+    const saved: unknown = JSON.parse(decodeURIComponent(value));
+    return Array.isArray(saved)
+      ? saved.filter((id): id is string => typeof id === "string")
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function PixelMark() {
   return (
-    <span className={`pixel-mark ${small ? "pixel-mark--small" : ""}`} aria-hidden="true">
+    <span className="pixel-mark" aria-hidden="true">
       <i />
       <i />
       <i />
@@ -97,7 +125,8 @@ export default function App() {
   const [selectedGame, setSelectedGame] = useState<Listing["game"] | null>(null);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [search, setSearch] = useState("");
-  const [saved, setSaved] = useState<string[]>([]);
+  const [saved, setSaved] = useState<string[]>(readSavedListings);
+  const [savedOnly, setSavedOnly] = useState(false);
   const [listings, setListings] = useState<Listing[]>([]);
   const [selectedListing, setSelectedListing] = useState<Listing | null>(null);
   const [catalogueStatus, setCatalogueStatus] = useState<"loading" | "ready" | "error">(
@@ -112,6 +141,10 @@ export default function App() {
       })
       .catch(() => setCatalogueStatus("error"));
   }, []);
+
+  useEffect(() => {
+    document.cookie = `${SAVED_COOKIE}=${encodeURIComponent(JSON.stringify(saved))}; Max-Age=31536000; Path=/; SameSite=Lax`;
+  }, [saved]);
 
   useEffect(() => {
     if (!selectedListing) return;
@@ -134,6 +167,15 @@ export default function App() {
     () => Array.from(new Set(listings.map((listing) => listing.game))),
     [listings],
   );
+
+  const featuredListing = useMemo(() => {
+    if (listings.length === 0) return null;
+
+    const savedListings = listings.filter((listing) => saved.includes(listing.id));
+    const candidates = savedListings.length > 0 ? savedListings : listings;
+
+    return candidates[Math.floor(Math.random() * candidates.length)];
+  }, [listings, saved]);
 
   const availableTags = useMemo(() => {
     if (!selectedGame) return [];
@@ -175,20 +217,22 @@ export default function App() {
       const matchesTags =
         selectedTags.length === 0 ||
         selectedTags.some((tag) => productFacets.includes(tag));
+      const matchesSaved = !savedOnly || saved.includes(product.id);
       const query = search.trim().toLowerCase();
       const matchesSearch =
         !query ||
         `${product.title} ${product.description} ${product.game} ${product.category} ${product.productType} ${product.seller} ${product.tags.join(" ")}`
           .toLowerCase()
           .includes(query);
-      return matchesGame && matchesTags && matchesSearch;
+      return matchesGame && matchesTags && matchesSaved && matchesSearch;
     });
-  }, [listings, search, selectedGame, selectedTags]);
+  }, [listings, saved, savedOnly, search, selectedGame, selectedTags]);
 
   const resetFilters = () => {
     setSelectedGame(null);
     setSelectedTags([]);
     setSearch("");
+    setSavedOnly(false);
   };
 
   const scrollToCatalogue = () =>
@@ -210,7 +254,15 @@ export default function App() {
           <a href="mailto:hello@bitpixel.cards">Contact</a>
         </nav>
 
-        <button className="saved-button" type="button" onClick={scrollToCatalogue}>
+        <button
+          className={`saved-button ${savedOnly ? "is-active" : ""}`}
+          type="button"
+          aria-pressed={savedOnly}
+          onClick={() => {
+            setSavedOnly((current) => !current);
+            scrollToCatalogue();
+          }}
+        >
           Saved <span>{saved.length}</span>
         </button>
       </header>
@@ -227,38 +279,39 @@ export default function App() {
             <br />
             <em>rare pull.</em>
           </h1>
-          <p>
-            A hand-picked portal for trading cards, sealed product, and the gear
-            that keeps your collection safe.
-          </p>
           <div className="hero-actions">
             <button className="primary-button" type="button" onClick={scrollToCatalogue}>
               Browse the drop <ArrowIcon />
             </button>
-            <a className="text-link" href="#sellers">
-              Meet the collectors
-            </a>
           </div>
         </div>
 
         <div className="hero-art" aria-label="Featured trading card selection">
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
-          <div className="energy-badge">BP</div>
           <div className="feature-card feature-card--back">
-            <span>RED PIXEL</span>
-            <PixelMark small />
-          </div>
-          <div className="feature-card feature-card--front">
             <img
-              src="https://images.unsplash.com/photo-1782762042616-9446017c8f30?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=90&w=700"
-              alt="A collector holding holographic trading cards"
+              src={`${import.meta.env.BASE_URL}pokemon-card-back.jpg`}
+              alt="Back of a Pokémon trading card"
             />
-            <div>
-              <span>CURATED FIND · 001</span>
-              <strong>Holo hits</strong>
-            </div>
           </div>
+          {featuredListing && (
+            <button
+              className="feature-card feature-card--front"
+              type="button"
+              onClick={() => setSelectedListing(featuredListing)}
+              aria-label={`View details for ${featuredListing.title}`}
+            >
+              <img
+                src={featuredListing.image}
+                alt={`${featuredListing.title} listing`}
+              />
+              <div>
+                <span>{featuredListing.game} · FEATURED FIND</span>
+                <strong>{featuredListing.title}</strong>
+              </div>
+            </button>
+          )}
           <span className="pixel-spark spark-one" />
           <span className="pixel-spark spark-two" />
         </div>
@@ -437,13 +490,17 @@ export default function App() {
         ) : (
           <div className="empty-state">
             <PixelMark />
-            <h3>No cards in this hand.</h3>
-            <p>Try another search or reset the filters.</p>
+            <h3>{savedOnly ? "No saved cards in this hand." : "No cards in this hand."}</h3>
+            <p>
+              {savedOnly
+                ? "Save a listing with the heart button, or return to the full catalogue."
+                : "Try another search or reset the filters."}
+            </p>
             <button
               type="button"
-              onClick={resetFilters}
+              onClick={savedOnly ? () => setSavedOnly(false) : resetFilters}
             >
-              Reset catalogue
+              {savedOnly ? "Show all listings" : "Reset catalogue"}
             </button>
           </div>
         )}
@@ -451,7 +508,7 @@ export default function App() {
 
       <section className="sellers" id="sellers">
         <div className="seller-intro">
-          <span className="section-index">02 / THE DUO</span>
+          <span className="section-index">02 / SELLERS</span>
           <h2>Two shops.<br />One shared obsession.</h2>
           <p>
             Bit Pixel is the meeting point for two independent sellers. Each of us
@@ -459,7 +516,7 @@ export default function App() {
             standard for collecting.
           </p>
         </div>
-        <a className="seller-card seller-card--blue" href="#marketplaces">
+        <a className="seller-card seller-card--blue" href="#blue-byte-marketplaces">
           <span className="seller-number">01</span>
           <div>
             <span>UNITED KINGDOM · INDEPENDENT SELLER</span>
@@ -468,7 +525,7 @@ export default function App() {
           </div>
           <ArrowIcon />
         </a>
-        <a className="seller-card seller-card--red" href="#marketplaces">
+        <a className="seller-card seller-card--red" href="#red-pixel-marketplaces">
           <span className="seller-number">02</span>
           <div>
             <span>SWEDEN · INDEPENDENT SELLER</span>
@@ -499,6 +556,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
               key={`${profile.owner}-${profile.marketplace}`}
+              id={profile.sectionAnchor ?? undefined}
             >
               <div className="profile-link-top">
                 <span>{String(index + 1).padStart(2, "0")}</span>
@@ -520,10 +578,9 @@ export default function App() {
             <PixelMark />
             <span>BIT <b>PIXEL</b></span>
           </a>
-          <a href="mailto:place@holder.io">place@holder.io</a>
+          <a href="mailto:hello@bitpixel.cards">hello@bitpixel.cards</a>
           <a href="#catalogue">Back to catalogue</a>
-          {/* <span>© 2025 BIT PIXEL</span> */}
-          <span>BIT PIXEL</span>
+          <span>© 2025 BIT PIXEL</span>
         </div>
       </footer>
 

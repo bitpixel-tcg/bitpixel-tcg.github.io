@@ -163,6 +163,16 @@ button {
   background: var(--ink);
 }
 
+.saved-button.is-active {
+  color: white;
+  background: var(--ink);
+}
+
+.saved-button.is-active span {
+  color: var(--ink);
+  background: var(--acid);
+}
+
 .hero {
   min-height: calc(100vh - 80px);
   padding: 9vh 7vw 6vh;
@@ -222,13 +232,6 @@ button {
   letter-spacing: -0.06em;
 }
 
-.hero-copy > p {
-  max-width: 500px;
-  color: #59574f;
-  font-size: clamp(16px, 1.3vw, 19px);
-  line-height: 1.55;
-}
-
 .hero-actions {
   display: flex;
   align-items: center;
@@ -267,13 +270,6 @@ button {
   stroke-width: 1.6;
 }
 
-.text-link {
-  padding-bottom: 3px;
-  border-bottom: 1px solid var(--ink);
-  font-size: 13px;
-  font-weight: 700;
-}
-
 .hero-art {
   height: min(70vh, 670px);
   position: relative;
@@ -299,24 +295,6 @@ button {
   left: 19%;
 }
 
-.energy-badge {
-  width: 64px;
-  height: 64px;
-  border: 7px solid var(--paper);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  position: absolute;
-  top: 10%;
-  left: 9%;
-  z-index: 4;
-  color: var(--ink);
-  background: var(--acid);
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  transform: rotate(-12deg);
-}
-
 .feature-card {
   width: min(21vw, 300px);
   aspect-ratio: 0.72;
@@ -329,43 +307,38 @@ button {
 .feature-card--back {
   top: 10%;
   left: 28%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 25px;
-  color: white;
-  background: var(--red);
-  background-image: radial-gradient(circle at 50% 43%, transparent 0 20%, rgba(255,255,255,.85) 20.5% 22%, transparent 22.5%),
-    linear-gradient(145deg, transparent 0 48%, rgba(255,255,255,.14) 48% 52%, transparent 52%);
+  overflow: hidden;
+  background: #27458f;
   transform: rotate(14deg);
 }
 
-.feature-card--back > span {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 11px;
-  letter-spacing: 2px;
-}
-
-.feature-card--back .pixel-mark {
-  align-self: center;
-  margin-bottom: 44%;
-}
-
-.feature-card--back .pixel-mark i {
-  background: white;
+.feature-card--back img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .feature-card--front {
   top: 17%;
   left: 8%;
+  padding: 0;
   overflow: hidden;
+  color: var(--ink);
   background: #e7bd53;
+  text-align: left;
   transform: rotate(-10deg);
   transition: transform 300ms ease;
+  cursor: pointer;
 }
 
 .hero-art:hover .feature-card--front {
   transform: rotate(-6deg) translateY(-8px);
+}
+
+.feature-card--front:focus-visible {
+  outline: 4px solid var(--blue);
+  outline-offset: 5px;
 }
 
 .feature-card--front img {
@@ -394,6 +367,7 @@ button {
   margin-top: 3px;
   font-family: "Space Grotesk", sans-serif;
   font-size: 21px;
+  line-height: 1.05;
 }
 
 .pixel-spark {
@@ -1495,11 +1469,6 @@ button {
 
   .feature-card--front strong {
     font-size: 16px;
-  }
-
-  .energy-badge {
-    left: 2%;
-    z-index: 5;
   }
 
   .hero-footnote {
