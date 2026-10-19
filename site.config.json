@@ -1,0 +1,16 @@
+{
+  "description": "Discover and browse a curated marketplace for Pokémon and other trading card game products, linking to top platforms for easy purchasing.",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "favicon.svg"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-R14HNB7WS0"
+  }
+}
