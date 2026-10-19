@@ -13,7 +13,9 @@
       "amount": 7.39, 
       "currency": "GBP", 
       "prefix": "Bid or Buy It Now" },
-    "image": "https://i.ebayimg.com/images/g/868AAeSwaopqx-mL/s-l1600.webp",
+    "images": [ 
+    "https://i.ebayimg.com/images/g/868AAeSwaopqx-mL/s-l1600.webp"
+    ],
     "marketplace": "ebay",
     "marketplaceUrl": "https://ebay.io/m/xplBgJ",
     "tags": [
@@ -46,7 +48,9 @@
     "currency": "GBP",
     "prefix": "Bid or Buy It Now"
   },
-  "image": "https://i.ebayimg.com/images/g/R7kAAeSw75Vq0ilm/s-l1600.webp",
+  "images": [ 
+    "https://i.ebayimg.com/images/g/R7kAAeSw75Vq0ilm/s-l1600.webp"
+  ],
   "marketplace": "eBay",
   "marketplaceUrl": "https://ebay.io/m/7qPgQJ",
   "tags": [
@@ -61,6 +65,78 @@
   "featured": false,
   "status": "available",
   "createdAt": "2026-10-17",
+  "theme": "blue",
+  "badge": "New"
+},
+{
+  "id": "fieldworker-lm-73-92-rh",
+  "title": "Vintage Fieldworker 73/92 EX Legend Maker Reverse Holo Perfect Swirl",
+  "description": "Singles",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played (Excellent)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 215.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [ 
+    "https://i.ebayimg.com/thumbs/images/g/avoAAeSwT0dq0UTu/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/XSc7iK",
+  "tags": [
+    "vintage",
+    "raw",
+    "ungraded",
+    "reverse holo",
+    "ex legend maker",
+    "trainer"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue",
+  "badge": "New"
+},
+{
+  "id": "simplified-chinese-card-bundle-full-arts-holos",
+  "title": "Simplified Chinese Pokémon Card Bundle",
+  "description": "Bundle of Simplified Chinese Pokémon cards featuring Full Arts, Illustration Rares and Holo cards",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "Chinese",
+  "condition": "Near Mint or Better",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 10.80,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [ 
+    "https://i.ebayimg.com/thumbs/images/g/zi4AAeSwkkdqv6Xd/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://www.ebay.co.uk/itm/257800268590",
+  "tags": [
+    "simplified chinese",
+    "card bundle",
+    "full art",
+    "illustration rare",
+    "holo",
+    "holos",
+    "chinese tcg",
+    "ungraded",
+    "raw",
+    "2025"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-20",
   "theme": "blue",
   "badge": "New"
 }
