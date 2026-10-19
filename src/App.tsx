@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { getListings } from "./data/listings";
+import { getListingBadge, getListings } from "./data/listings";
 import type { Listing } from "./types/listing";
 
 function formatPrice(listing: Listing) {
@@ -125,6 +125,7 @@ export default function App() {
   const [savedOnly, setSavedOnly] = useState(false);
   const [listings, setListings] = useState<Listing[]>([]);
   const [selectedListing, setSelectedListing] = useState<Listing | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [imageZoomed, setImageZoomed] = useState(false);
   const [imageZoomOrigin, setImageZoomOrigin] = useState("50% 50%");
   const [catalogueStatus, setCatalogueStatus] = useState<"loading" | "ready" | "error">(
@@ -149,6 +150,7 @@ export default function App() {
 
     setImageZoomed(false);
     setImageZoomOrigin("50% 50%");
+    setSelectedImageIndex(0);
 
     const previousOverflow = document.body.style.overflow;
     const closeOnEscape = (event: KeyboardEvent) => {
@@ -239,6 +241,10 @@ export default function App() {
   const scrollToCatalogue = () =>
     document.getElementById("catalogue")?.scrollIntoView({ behavior: "smooth" });
 
+  const selectedListingBadge = selectedListing
+    ? getListingBadge(selectedListing)
+    : null;
+
   return (
     <main>
       <header className="site-header">
@@ -304,11 +310,14 @@ export default function App() {
               aria-label={`View details for ${featuredListing.title}`}
             >
               <img
-                src={featuredListing.image}
+                src={featuredListing.images[0]}
                 alt={`${featuredListing.title} listing`}
               />
               <div>
-                <span>{featuredListing.game} · FEATURED FIND</span>
+                <span>
+                  {featuredListing.game} ·{" "}
+                  {(getListingBadge(featuredListing) ?? "Catalogue find").toUpperCase()}
+                </span>
                 <strong>{featuredListing.title}</strong>
               </div>
             </button>
@@ -426,6 +435,7 @@ export default function App() {
           <div className="product-grid">
             {visibleProducts.map((product) => {
               const isSaved = saved.includes(product.id);
+              const productBadge = getListingBadge(product);
               return (
                 <article
                   className="product-card"
@@ -443,8 +453,8 @@ export default function App() {
                   }}
                 >
                   <div className={`product-image tone-${product.theme}`}>
-                    <img src={product.image} alt="" />
-                    {product.badge && <span className="product-tag">{product.badge}</span>}
+                    <img src={product.images[0]} alt="" />
+                    {productBadge && <span className="product-tag">{productBadge}</span>}
                     <button
                       type="button"
                       className={`save-toggle ${isSaved ? "is-saved" : ""}`}
@@ -609,45 +619,72 @@ export default function App() {
               <CloseIcon />
             </button>
 
-            <div
-              className={`modal-image tone-${selectedListing.theme} ${imageZoomed ? "is-zoomed" : ""}`}
-              role="button"
-              tabIndex={0}
-              aria-label={
-                imageZoomed
-                  ? `Reset image zoom for ${selectedListing.title}`
-                  : `Zoom image for ${selectedListing.title}`
-              }
-              aria-pressed={imageZoomed}
-              onMouseMove={(event) => {
-                const bounds = event.currentTarget.getBoundingClientRect();
-                const x = ((event.clientX - bounds.left) / bounds.width) * 100;
-                const y = ((event.clientY - bounds.top) / bounds.height) * 100;
-                setImageZoomOrigin(`${x}% ${y}%`);
-              }}
-              onMouseLeave={() => {
-                if (!imageZoomed) setImageZoomOrigin("50% 50%");
-              }}
-              onClick={() => setImageZoomed((current) => !current)}
-              onKeyDown={(event) => {
-                if (event.key === "Enter" || event.key === " ") {
-                  event.preventDefault();
-                  setImageZoomed((current) => !current);
+            <div className="modal-gallery">
+              <div
+                className={`modal-image tone-${selectedListing.theme} ${imageZoomed ? "is-zoomed" : ""}`}
+                role="button"
+                tabIndex={0}
+                aria-label={
+                  imageZoomed
+                    ? `Reset image zoom for ${selectedListing.title}`
+                    : `Zoom image for ${selectedListing.title}`
                 }
-              }}
-            >
-              <img
-                src={selectedListing.image}
-                alt={`${selectedListing.title} listing`}
-                style={{ transformOrigin: imageZoomOrigin }}
-              />
-              {selectedListing.badge && (
-                <span className="product-tag">{selectedListing.badge}</span>
+                aria-pressed={imageZoomed}
+                onMouseMove={(event) => {
+                  const bounds = event.currentTarget.getBoundingClientRect();
+                  const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+                  const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+                  setImageZoomOrigin(`${x}% ${y}%`);
+                }}
+                onMouseLeave={() => {
+                  if (!imageZoomed) setImageZoomOrigin("50% 50%");
+                }}
+                onClick={() => setImageZoomed((current) => !current)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    setImageZoomed((current) => !current);
+                  }
+                }}
+              >
+                <img
+                  src={selectedListing.images[selectedImageIndex] ?? selectedListing.images[0]}
+                  alt={`${selectedListing.title}, image ${selectedImageIndex + 1}`}
+                  style={{ transformOrigin: imageZoomOrigin }}
+                />
+                {selectedListingBadge && (
+                  <span className="product-tag">{selectedListingBadge}</span>
+                )}
+                <span className="modal-image-index">
+                  {selectedImageIndex + 1} / {selectedListing.images.length} ·{" "}
+                  {selectedListing.id}
+                </span>
+                <span className="modal-zoom-hint">
+                  {imageZoomed ? "Click to reset" : "Click image to zoom"}
+                </span>
+              </div>
+
+              {selectedListing.images.length > 1 && (
+                <div className="modal-thumbnails" aria-label="Listing images">
+                  {selectedListing.images.map((image, index) => (
+                    <button
+                      className={selectedImageIndex === index ? "active" : ""}
+                      type="button"
+                      key={`${image}-${index}`}
+                      onClick={() => {
+                        setSelectedImageIndex(index);
+                        setImageZoomed(false);
+                        setImageZoomOrigin("50% 50%");
+                      }}
+                      aria-label={`View image ${index + 1} of ${selectedListing.images.length}`}
+                      aria-pressed={selectedImageIndex === index}
+                    >
+                      <img src={image} alt="" />
+                      <span>{String(index + 1).padStart(2, "0")}</span>
+                    </button>
+                  ))}
+                </div>
               )}
-              <span className="modal-image-index">BIT PIXEL / {selectedListing.id}</span>
-              <span className="modal-zoom-hint">
-                {imageZoomed ? "Click to reset" : "Click image to zoom"}
-              </span>
             </div>
 
             <div className="modal-content">

@@ -17,7 +17,7 @@ export type Listing = {
     currency: string;
     prefix?: string;
   };
-  image: string;
+  images: string[];
   marketplace: "Cardmarket" | "eBay" | "Tradera" | "Other";
   marketplaceUrl: string;
   tags: string[];
@@ -25,5 +25,4 @@ export type Listing = {
   status: ListingStatus;
   createdAt: string;
   theme: "blue" | "red" | "gold" | "orange" | "mint" | "violet";
-  badge?: string;
 };
