@@ -118,7 +118,13 @@
     "prefix": "Bid or Buy It Now"
   },
   "images": [ 
-    "https://i.ebayimg.com/thumbs/images/g/zi4AAeSwkkdqv6Xd/s-l1600.webp"
+    "https://i.ebayimg.com/images/g/zi4AAeSwkkdqv6Xd/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/55gAAeSwA9Vqv6Xo/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/0aQAAeSwU6Jqv6Xy/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/13UAAeSwbItqv6X8/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/4moAAeSw28Nqv6YE/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/~YMAAeSwSWNqv6YM/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/nlsAAeSwcPhqv6YT/s-l1600.webp"
   ],
   "marketplace": "eBay",
   "marketplaceUrl": "https://www.ebay.co.uk/itm/257800268590",
