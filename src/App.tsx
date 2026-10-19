@@ -125,6 +125,8 @@ export default function App() {
   const [savedOnly, setSavedOnly] = useState(false);
   const [listings, setListings] = useState<Listing[]>([]);
   const [selectedListing, setSelectedListing] = useState<Listing | null>(null);
+  const [imageZoomed, setImageZoomed] = useState(false);
+  const [imageZoomOrigin, setImageZoomOrigin] = useState("50% 50%");
   const [catalogueStatus, setCatalogueStatus] = useState<"loading" | "ready" | "error">(
     "loading",
   );
@@ -144,6 +146,9 @@ export default function App() {
 
   useEffect(() => {
     if (!selectedListing) return;
+
+    setImageZoomed(false);
+    setImageZoomOrigin("50% 50%");
 
     const previousOverflow = document.body.style.overflow;
     const closeOnEscape = (event: KeyboardEvent) => {
@@ -604,15 +609,45 @@ export default function App() {
               <CloseIcon />
             </button>
 
-            <div className={`modal-image tone-${selectedListing.theme}`}>
+            <div
+              className={`modal-image tone-${selectedListing.theme} ${imageZoomed ? "is-zoomed" : ""}`}
+              role="button"
+              tabIndex={0}
+              aria-label={
+                imageZoomed
+                  ? `Reset image zoom for ${selectedListing.title}`
+                  : `Zoom image for ${selectedListing.title}`
+              }
+              aria-pressed={imageZoomed}
+              onMouseMove={(event) => {
+                const bounds = event.currentTarget.getBoundingClientRect();
+                const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+                const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+                setImageZoomOrigin(`${x}% ${y}%`);
+              }}
+              onMouseLeave={() => {
+                if (!imageZoomed) setImageZoomOrigin("50% 50%");
+              }}
+              onClick={() => setImageZoomed((current) => !current)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  setImageZoomed((current) => !current);
+                }
+              }}
+            >
               <img
                 src={selectedListing.image}
                 alt={`${selectedListing.title} listing`}
+                style={{ transformOrigin: imageZoomOrigin }}
               />
               {selectedListing.badge && (
                 <span className="product-tag">{selectedListing.badge}</span>
               )}
               <span className="modal-image-index">BIT PIXEL / {selectedListing.id}</span>
+              <span className="modal-zoom-hint">
+                {imageZoomed ? "Click to reset" : "Click image to zoom"}
+              </span>
             </div>
 
             <div className="modal-content">
