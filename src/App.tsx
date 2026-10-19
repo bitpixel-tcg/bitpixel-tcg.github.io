@@ -459,7 +459,7 @@ export default function App() {
             standard for collecting.
           </p>
         </div>
-        <a className="seller-card seller-card--blue" href="#marketplaces" target="_blank" rel="noreferrer">
+        <a className="seller-card seller-card--blue" href="#marketplaces">
           <span className="seller-number">01</span>
           <div>
             <span>UNITED KINGDOM · INDEPENDENT SELLER</span>
@@ -468,7 +468,7 @@ export default function App() {
           </div>
           <ArrowIcon />
         </a>
-        <a className="seller-card seller-card--red" href="#marketplaces" target="_blank" rel="noreferrer">
+        <a className="seller-card seller-card--red" href="#marketplaces">
           <span className="seller-number">02</span>
           <div>
             <span>SWEDEN · INDEPENDENT SELLER</span>
@@ -520,9 +520,10 @@ export default function App() {
             <PixelMark />
             <span>BIT <b>PIXEL</b></span>
           </a>
-          <a href="mailto:hello@bitpixel.cards">hello@bitpixel.cards</a>
+          <a href="mailto:place@holder.io">place@holder.io</a>
           <a href="#catalogue">Back to catalogue</a>
-          <span>© 2025 BIT PIXEL</span>
+          {/* <span>© 2025 BIT PIXEL</span> */}
+          <span>BIT PIXEL</span>
         </div>
       </footer>
 
