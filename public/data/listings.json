@@ -1,7 +1,7 @@
 [
   {
-    "id": "grovyle31-RH",
-    "title": "Vintage Rare Grovyle 31/109 Ruby & Sapphire Reverse Holo",
+    "id": "grovyle-EXRS-31-109-RH",
+    "title": "Vintage Rare Grovyle 31/109 Reverse Holo",
     "description": "Singles",
     "game": "Pokémon",
     "category": "Singles",
@@ -9,15 +9,59 @@
     "language": "English",
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
-    "price": { "amount": 7.39, "currency": "GBP", "prefix": "Buy It Now" },
+    "price": { 
+      "amount": 7.39, 
+      "currency": "GBP", 
+      "prefix": "Bid or Buy It Now" },
     "image": "https://i.ebayimg.com/images/g/868AAeSwaopqx-mL/s-l500.webp",
     "marketplace": "ebay",
     "marketplaceUrl": "https://ebay.io/m/xplBgJ",
-    "tags": ["raw", "ungraded", "singles", "EX Ruby & Sapphire", "bidding"],
+    "tags": [
+      "raw", 
+      "ungraded", 
+      "singles", 
+      "vintage",
+      "reverse holo",
+      "EX Ruby & Sapphire", 
+      "bidding"
+    ],
     "featured": true,
     "status": "available",
     "createdAt": "2026-10-17",
     "theme": "blue",
     "badge": "New"
-  }
+  },
+  {
+  "id": "dark-dragonite-lc-5-110-holo",
+  "title": "Vintage Dark Dragonite 5/110 Holo LP/MP",
+  "description": "Singles",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played (Excellent)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 93.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "image": "https://i.ebayimg.com/images/g/R7kAAeSw75Vq0ilm/s-l140.webp",
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/7qPgQJ",
+  "tags": [
+    "vintage",
+    "ungraded",
+    "raw",
+    "holo rare",
+    "legendary collection",
+    "2002",
+    "dark dragonite"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue",
+  "badge": "New"
+}
 ]
