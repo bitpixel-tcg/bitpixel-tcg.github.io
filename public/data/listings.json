@@ -317,5 +317,82 @@
   "status": "available",
   "createdAt": "2026-10-17",
   "theme": "blue"
+},
+{
+  "id": "m-lucario-ex-xy-furious-fists-4-card-bundle",
+  "title": "Mega Lucario EX + 3 Other Lucario Cards",
+  "description": "Four-card English Pokémon bundle featuring M Lucario EX 55/111 from XY Furious Fists, Lucario 63/124 Reverse Holo from Diamond & Pearl, Lucario XY140 Cosmos Holo Promo, and Lucario 63 from Fates Collide Cosmos Holo. Main card is Lightly Played; additional cards range from LP/MP to HP, with creases on two cards.",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played to Heavily Played (LP-HP)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 35.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/KtgAAeSwld9q13A1/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/39EAAeSwUKZq13A9/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/2YUAAeSwEwRq13BF/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/Nh4AAeSwEpVq13BL/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/qKAAAeSw0h1q13BR/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/1IQAAeSwjC1q13BY/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/1SYAAeSwdGhq13Bf/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://www.ebay.co.uk/itm/257808275624",
+  "tags": [
+    "lucario",
+    "card bundle",
+    "xy furious fists",
+    "diamond and pearl",
+    "fates collide",
+    "promo",
+    "ungraded",
+    "raw"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-21",
+  "theme": "blue"
+},
+{
+  "id": "pikachu-mcdonalds-2017-005-012-holo",
+  "title": "Vintage Pikachu McDonald's 2017 Promo Sealed",
+  "description": "English Pikachu 005/012 Holo Promo from the McDonald's 2017 set. Advertised as original sealed and in mint condition.",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Near Mint or Better",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 49.54,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/TdsAAeSwefZq18V6/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/RrcAAeSw9ONq18V8/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/Zz8AAeSwHF9q18V7/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/TWQAAeSwWz1q18V8/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://www.ebay.co.uk/itm/257808677090",
+  "tags": [
+    "vintage",
+    "mcdonalds",
+    "promo",
+    "sealed",
+    "ungraded",
+    "raw"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-21",
+  "theme": "blue"
 }
 ]
