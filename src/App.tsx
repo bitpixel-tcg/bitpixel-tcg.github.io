@@ -258,7 +258,7 @@ export default function App() {
         <nav aria-label="Main navigation">
           <a href="#catalogue">Catalogue</a>
           <a href="#marketplaces">Marketplaces</a>
-          <a href="mailto:hello@bitpixel.cards">Contact</a>
+          <a href="mailto:bitpixeltcg@hotmail.com">Contact</a>
         </nav>
 
         <button
@@ -591,7 +591,7 @@ export default function App() {
             <PixelMark />
             <span>BIT <b>PIXEL</b></span>
           </a>
-          <a href="mailto:hello@bitpixel.cards">hello@bitpixel.cards</a>
+          <a href="mailto:bitpixeltcg@hotmail.com">bitpixeltcg@hotmail.com</a>
           <a href="#catalogue">Back to catalogue</a>
           <span>© 2025 BIT PIXEL</span>
         </div>
