@@ -346,7 +346,11 @@ export default function App() {
           <div className="catalogue-filters">
             <div className="filter-list" aria-label="Filter by trading card game">
               <button
-                className={!selectedGame && selectedTags.length === 0 ? "active" : ""}
+                className={
+                  !selectedGame && selectedTags.length === 0 && !savedOnly
+                    ? "active"
+                    : ""
+                }
                 type="button"
                 onClick={resetFilters}
               >

@@ -26,7 +26,15 @@ export function getListingBadge(listing: Listing) {
 // This is the only data-access function used by the catalogue. A future
 // Supabase implementation can replace this fetch without changing the UI.
 export async function getListings(): Promise<Listing[]> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/listings.json`);
+  // Listings change independently of the application bundle. The timestamp
+  // prevents GitHub Pages and returning browsers from serving an older copy.
+  const listingsUrl = new URL(
+    `${import.meta.env.BASE_URL}data/listings.json`,
+    window.location.href,
+  );
+  listingsUrl.searchParams.set("updated", Date.now().toString());
+
+  const response = await fetch(listingsUrl, { cache: "no-store" });
 
   if (!response.ok) {
     throw new Error(`Could not load listings (${response.status})`);
