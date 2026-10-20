@@ -30,8 +30,7 @@
     "featured": true,
     "status": "available",
     "createdAt": "2026-10-17",
-    "theme": "blue",
-    "badge": "New"
+    "theme": "blue"
   },
   {
   "id": "dark-dragonite-lc-5-110-holo",
@@ -65,12 +64,11 @@
   "featured": false,
   "status": "available",
   "createdAt": "2026-10-17",
-  "theme": "blue",
-  "badge": "New"
+  "theme": "blue"
 },
 {
   "id": "fieldworker-lm-73-92-rh",
-  "title": "Vintage Fieldworker 73/92 EX Legend Maker Reverse Holo Perfect Swirl",
+  "title": "Vintage Fieldworker 73/92 Reverse Holo",
   "description": "Singles",
   "game": "Pokémon",
   "category": "Singles",
@@ -99,8 +97,7 @@
   "featured": false,
   "status": "available",
   "createdAt": "2026-10-17",
-  "theme": "blue",
-  "badge": "New"
+  "theme": "blue"
 },
 {
   "id": "simplified-chinese-card-bundle-full-arts-holos",
@@ -127,7 +124,7 @@
     "https://i.ebayimg.com/images/g/nlsAAeSwcPhqv6YT/s-l1600.webp"
   ],
   "marketplace": "eBay",
-  "marketplaceUrl": "https://www.ebay.co.uk/itm/257800268590",
+  "marketplaceUrl": "https://ebay.io/m/GBC4Yf",
   "tags": [
     "simplified chinese",
     "card bundle",
@@ -143,7 +140,182 @@
   "featured": false,
   "status": "available",
   "createdAt": "2026-10-20",
-  "theme": "blue",
-  "badge": "New"
+  "theme": "blue"
+},
+{
+  "id": "dark-tyranitar-trr-20-109-holo",
+  "title": "Vintage Dark Tyranitar 20/109 Holo",
+  "description": "Vintage Dark Tyranitar 20/109 from EX Team Rocket Returns featuring a holo swirl",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played (Excellent)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 115.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/glcAAeSwNXtq0irS/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/V60AAeSwvs5q0ira/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/sHUzzy",
+  "tags": [
+    "vintage",
+    "ex team rocket returns",
+    "reverse holo",
+    "raw",
+    "ungraded"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue"
+},
+{
+  "id": "cubone-tma-40-95-reverse-holo",
+  "title": "Vintage Rare Reverse Holo Cubone 40/95",
+  "description": "Vintage Cubone 40/95 Reverse Holo from EX Team Magma vs. Team Aqua",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played (Excellent)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 150.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/EmQAAeSwY8Jq0iyR/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/dIUAAeSwsm5q0iyZ/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/yZumou",
+  "tags": [
+    "vintage",
+    "reverse holo",
+    "ex team magma vs team aqua",
+    "2004",
+    "raw"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue"
+},
+{
+  "id": "vintage-pokemon-bundle-ex-era-mixed-cards",
+  "title": "Vintage Pokémon Card Bundle EX Era",
+  "description": "Vintage English Pokémon card bundle featuring six cards from EX-era sets: Starmie, Feraligatr, Mightyena, Bellossom, Ariados and Mantine. Includes stamped cards from EX Delta Species, EX Holon Phantoms, EX Unseen Forces and EX Team Rocket Returns.",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played / Moderately Played (LP/MP)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 105.44,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/n4gAAeSwpGRq0n8G/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/vtgAAeSwpNZq0n8O/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/xxwAAeSwjmNq0n8W/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/zPoAAeSw9Upq0n8b/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/u7QAAeSwZRRq0n9G/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/4jwAAeSwSg1q0n9N/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/eGUAAeSwNslq0n9U/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/xH0AAeSwTktq0n9b/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/1XEAAeSwr4Rq0n9h/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/rKoAAeSwAz9q0n9o/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/1YsAAeSwYC9q0n91/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/3oYAAeSw6rpq0n99/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/hVsVEk",
+  "tags": [
+    "vintage",
+    "card bundle",
+    "ex era",
+    "stamped cards",
+    "delta species",
+    "holon phantoms",
+    "unseen forces",
+    "team rocket returns",
+    "ungraded",
+    "raw"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue"
+},
+{
+  "id": "vintage-pokemon-bundle-120-cards-wotc",
+  "title": "Vintage Pokémon 120 Card Bundle",
+  "description": "120 vintage English Pokémon cards from Base Set, Jungle, Fossil, Team Rocket and Legendary Collection. Includes holo cards, promos, commons, some first edition cards, Trainers and Energy cards. The seller estimates most cards are LP to MP, with overall condition ranging from LP to HP.",
+  "game": "Pokémon",
+  "category": "Singles",
+  "productType": "Singles",
+  "language": "English",
+  "condition": "Lightly Played to Heavily Played (LP-HP)",
+  "seller": "Blue Byte",
+  "price": {
+    "amount": 315.00,
+    "currency": "GBP",
+    "prefix": "Bid or Buy It Now"
+  },
+  "images": [
+    "https://i.ebayimg.com/images/g/fI0AAeSw1qxq0~qJ/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/5TIAAeSw6LVq0~qT/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/8ZAAAeSw6qZq0~qb/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/BsIAAeSw5hJq0~pQ/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/w0cAAeSwZRRq0~qm/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/A0wAAeSwiB5q0~qq/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/RI0AAeSwe8tq0~qu/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/92YAAeSwm~lq0~qz/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/~vwAAeSwr4Rq0~q4/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/AX4AAeSw6Vxq0~q9/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/AAgAAeSwqipq0~rB/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/BigAAeSwqx9q0~rG/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/LCYAAeSwuS1q0~px/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/3IEAAeSw~Jlq0~p1/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/zVQAAeSwQDxq0~p6/s-l1600.webp",
+    "https://i.ebayimg.com/images/g/NIYAAeSwumNq1ofD/s-l1600.webp"
+  ],
+  "marketplace": "eBay",
+  "marketplaceUrl": "https://ebay.io/m/asTDOj",
+  "tags": [
+    "vintage",
+    "card bundle",
+    "120 cards",
+    "wotc",
+    "base set",
+    "jungle",
+    "fossil",
+    "team rocket",
+    "legendary collection",
+    "first edition",
+    "1st edition",
+    "holo",
+    "promos",
+    "commons",
+    "trainer cards",
+    "energy cards",
+    "1999",
+    "2000",
+    "ungraded",
+    "raw"
+  ],
+  "featured": false,
+  "status": "available",
+  "createdAt": "2026-10-17",
+  "theme": "blue"
 }
 ]
