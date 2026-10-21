@@ -357,7 +357,7 @@
       "https://i.ebayimg.com/images/g/1SYAAeSwdGhq13Bf/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://www.ebay.co.uk/itm/257808275624",
+    "marketplaceUrl": "https://ebay.io/m/cM8OQL",
     "tags": [
       "lucario",
       "card bundle",
@@ -396,7 +396,7 @@
       "https://i.ebayimg.com/images/g/TWQAAeSwWz1q18V8/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://www.ebay.co.uk/itm/257808677090",
+    "marketplaceUrl": "https://ebay.io/m/6OTLS2",
     "tags": [
       "vintage",
       "mcdonalds",
@@ -406,6 +406,46 @@
       "raw"
     ],
     "featured": false,
+    "status": "available",
+    "createdAt": "2026-10-21",
+    "availableTo": "2026-10-28",
+    "theme": "blue"
+  },
+  {
+    "id": "pokemon-shrouded-fable-elite-trainer-box-sealed",
+    "title": "Pokémon TCG Shrouded Fable Elite Trainer Box - Sealed",
+    "description": "English Pokémon TCG Scarlet & Violet—Shrouded Fable Elite Trainer Box, released in 2024. Factory sealed. Includes 9 Shrouded Fable booster packs, a full-art Pecharunt promo card, 65 card sleeves, 45 Energy cards, dice, condition markers, dividers, a collector's box and a Pokémon TCG Live code card. Visible packaging wear and creasing are present, so please inspect all photos carefully.",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Elite Trainer Box",
+    "language": "English",
+    "condition": "New/Factory Sealed",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 136.49,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/D-IAAeSwurRq2M6B/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/Dj8AAeSwvPhq2M5T/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/BNYAAeSwi~Vq2M5m/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/Bx8AAeSw3LRq2M50/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/BsUAAeSwKohq2M6Q/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/DgYAAeSwCV5q2M6c/s-l1600.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://ebay.io/m/pUVV24",
+    "tags": [
+      "shrouded fable",
+      "elite trainer box",
+      "etb",
+      "scarlet violet",
+      "pecharunt promo",
+      "2024 pokemon",
+      "booster packs"
+    ],
+    "featured": true,
     "status": "available",
     "createdAt": "2026-10-21",
     "availableTo": "2026-10-28",
