@@ -31,6 +31,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -65,6 +66,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -98,6 +100,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -141,6 +144,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-20",
+    "availableTo": "2026-10-27",
     "theme": "blue"
   },
   {
@@ -174,6 +178,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -207,6 +212,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -255,6 +261,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -317,6 +324,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
+    "availableTo": "2026-10-24",
     "theme": "blue"
   },
   {
@@ -358,6 +366,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-21",
+    "availableTo": "2026-10-28",
     "theme": "blue"
   },
   {
@@ -394,6 +403,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-21",
+    "availableTo": "2026-10-28",
     "theme": "blue"
   }
 ]
