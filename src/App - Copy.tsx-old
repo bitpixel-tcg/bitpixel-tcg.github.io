@@ -33,7 +33,7 @@ const marketplaceProfiles = [
     location: "Sweden",
     marketplace: "Tradera",
     description: "View all Red Pixel auctions and listings on Tradera.",
-    href: "https://www.tradera.com/profile/items/6354053/linus8888",
+    href: "https://www.tradera.com/profile/items/6354053/flabberific",
     color: "red",
   },
   {

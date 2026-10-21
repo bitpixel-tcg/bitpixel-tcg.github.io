@@ -15,7 +15,8 @@
       "prefix": "Bid or Buy It Now"
     },
     "images": [
-      "https://i.ebayimg.com/images/g/868AAeSwaopqx-mL/s-l1600.webp"
+      "https://i.ebayimg.com/images/g/868AAeSwaopqx-mL/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/cEYAAeSwE69qx-ml/s-l1600.webp"
     ],
     "marketplace": "eBay",
     "marketplaceUrl": "https://ebay.io/m/xplBgJ",
@@ -50,7 +51,8 @@
       "prefix": "Bid or Buy It Now"
     },
     "images": [
-      "https://i.ebayimg.com/images/g/R7kAAeSw75Vq0ilm/s-l1600.webp"
+      "https://i.ebayimg.com/images/g/R7kAAeSw75Vq0ilm/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/UWkAAeSwiB5q0ilw/s-l1600.webp"
     ],
     "marketplace": "eBay",
     "marketplaceUrl": "https://ebay.io/m/7qPgQJ",
@@ -85,7 +87,10 @@
       "prefix": "Bid or Buy It Now"
     },
     "images": [
-      "https://i.ebayimg.com/thumbs/images/g/avoAAeSwT0dq0UTu/s-l1600.webp"
+      "https://i.ebayimg.com/images/g/avoAAeSwT0dq0UTu/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/9XMAAeSwG69q0UT6/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/6pwAAeSwSg5q0UUJ/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/V7gAAeSwoR1q0UUT/s-l1600.webp"
     ],
     "marketplace": "eBay",
     "marketplaceUrl": "https://ebay.io/m/XSc7iK",
