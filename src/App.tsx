@@ -24,6 +24,7 @@ const marketplaceProfiles = [
     description: "View all Blue Byte listings on eBay.",
     href: "https://www.ebay.co.uk/usr/bitpixeltcg",
     color: "blue",
+    sectionAnchor: "blue-byte-marketplaces",
   },
   {
     owner: "Blue Byte",
@@ -32,6 +33,7 @@ const marketplaceProfiles = [
     description: "Browse Blue Byte's complete Cardmarket inventory.",
     href: "https://www.cardmarket.com/en/Pokemon/Users/Asymptotic-Wanderer",
     color: "blue",
+    sectionAnchor: null,
   },
   {
     owner: "Red Pixel",
@@ -40,6 +42,7 @@ const marketplaceProfiles = [
     description: "View all Red Pixel auctions and listings on Tradera.",
     href: "https://www.tradera.com/profile/items/6354053/linus8888",
     color: "red",
+    sectionAnchor: "red-pixel-marketplaces",
   },
   {
     owner: "Red Pixel",
@@ -48,6 +51,7 @@ const marketplaceProfiles = [
     description: "Browse Red Pixel's complete Cardmarket inventory.",
     href: "https://www.cardmarket.com/en/Pokemon/Users/Flabb",
     color: "red",
+    sectionAnchor: null,
   },
 ] as const;
 
@@ -720,6 +724,31 @@ export default function App() {
                 </span>
               </div>
               <h2 id="listing-modal-title">{selectedListing.title}</h2>
+
+              <div className="modal-purchase">
+                <div>
+                  <span>LISTED BY</span>
+                  <b
+                    className={
+                      selectedListing.seller === "Blue Byte" ? "blue-dot" : "red-dot"
+                    }
+                  >
+                    {selectedListing.seller}
+                  </b>
+                </div>
+                <a
+                  href={selectedListing.marketplaceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span>
+                    <small>{formatPrice(selectedListing)}</small>
+                    View on {selectedListing.marketplace}
+                  </span>
+                  <ArrowIcon />
+                </a>
+              </div>
+
               <p className="modal-description">{selectedListing.description}</p>
 
               <dl className="listing-details">
@@ -750,29 +779,6 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="modal-purchase">
-                <div>
-                  <span>LISTED BY</span>
-                  <b
-                    className={
-                      selectedListing.seller === "Blue Byte" ? "blue-dot" : "red-dot"
-                    }
-                  >
-                    {selectedListing.seller}
-                  </b>
-                </div>
-                <a
-                  href={selectedListing.marketplaceUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>
-                    <small>{formatPrice(selectedListing)}</small>
-                    View on {selectedListing.marketplace}
-                  </span>
-                  <ArrowIcon />
-                </a>
-              </div>
             </div>
           </section>
         </div>
