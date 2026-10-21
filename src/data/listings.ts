@@ -1,6 +1,31 @@
 import type { Listing } from "../types/listing";
 
 const DAY_IN_MS = 24 * 60 * 60 * 1000;
+export type ListingDisplayStatus = "Available" | "Expired" | "Sold" | "Unavailable";
+
+export function getListingDisplayStatus(
+  listing: Listing,
+  now = new Date(),
+): ListingDisplayStatus {
+  if (listing.status === "sold") return "Sold";
+  if (listing.status === "unavailable") return "Unavailable";
+
+  if (listing.status === "available" && listing.availableTo) {
+    const availableTo = Date.parse(listing.availableTo);
+    if (!Number.isNaN(availableTo) && availableTo <= now.getTime()) {
+      return "Expired";
+    }
+  }
+
+  return "Available";
+}
+
+export function isListingAvailable(listing: Listing, now = new Date()) {
+  return (
+    listing.status === "available" &&
+    getListingDisplayStatus(listing, now) === "Available"
+  );
+}
 
 export function isNewListing(createdAt: string, today = new Date()) {
   const [year, month, day] = createdAt.split("-").map(Number);
@@ -18,6 +43,7 @@ export function isNewListing(createdAt: string, today = new Date()) {
 }
 
 export function getListingBadge(listing: Listing) {
+  if (!isListingAvailable(listing)) return null;
   if (listing.featured) return "Popular";
   if (isNewListing(listing.createdAt)) return "New";
   return null;
@@ -46,10 +72,13 @@ export async function getListings(): Promise<Listing[]> {
     throw new Error("Listings data must be an array");
   }
 
+  const now = new Date();
+
   return (listings as Listing[])
-    .filter((listing) => listing.status === "available")
+    .filter((listing) => listing.status !== "draft")
     .sort(
       (a, b) =>
+        Number(isListingAvailable(b, now)) - Number(isListingAvailable(a, now)) ||
         Number(b.featured) - Number(a.featured) ||
         Date.parse(b.createdAt) - Date.parse(a.createdAt),
     );

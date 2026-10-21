@@ -1,5 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { getListingBadge, getListings } from "./data/listings";
+import {
+  getListingBadge,
+  getListingDisplayStatus,
+  getListings,
+  isListingAvailable,
+} from "./data/listings";
 import type { Listing } from "./types/listing";
 
 function formatPrice(listing: Listing) {
@@ -172,10 +177,11 @@ export default function App() {
   );
 
   const featuredListing = useMemo(() => {
-    if (listings.length === 0) return null;
+    const availableListings = listings.filter((listing) => isListingAvailable(listing));
+    if (availableListings.length === 0) return null;
 
-    const savedListings = listings.filter((listing) => saved.includes(listing.id));
-    const candidates = savedListings.length > 0 ? savedListings : listings;
+    const savedListings = availableListings.filter((listing) => saved.includes(listing.id));
+    const candidates = savedListings.length > 0 ? savedListings : availableListings;
 
     return candidates[Math.floor(Math.random() * candidates.length)];
   }, [listings, saved]);
@@ -244,6 +250,10 @@ export default function App() {
   const selectedListingBadge = selectedListing
     ? getListingBadge(selectedListing)
     : null;
+  const selectedListingStatus = selectedListing
+    ? getListingDisplayStatus(selectedListing)
+    : null;
+  const selectedListingUnavailable = selectedListingStatus !== "Available";
 
   return (
     <main>
@@ -335,10 +345,12 @@ export default function App() {
         <div className="section-heading">
           <div>
             <span className="section-index">01 / THE CATALOGUE</span>
-            <h2>Listings</h2>
+            <h2>Fresh in the market</h2>
           </div>
           <p>
-            No middleman — just good finds.
+            We scout, compare, and link you straight to the listing.
+            <br />
+            No middleman—just good finds.
           </p>
         </div>
 
@@ -438,9 +450,11 @@ export default function App() {
             {visibleProducts.map((product) => {
               const isSaved = saved.includes(product.id);
               const productBadge = getListingBadge(product);
+              const productStatus = getListingDisplayStatus(product);
+              const productUnavailable = productStatus !== "Available";
               return (
                 <article
-                  className="product-card"
+                  className={`product-card ${productUnavailable ? "is-unavailable" : ""}`}
                   key={product.id}
                   role="button"
                   tabIndex={0}
@@ -457,6 +471,9 @@ export default function App() {
                   <div className={`product-image tone-${product.theme}`}>
                     <img src={product.images[0]} alt="" />
                     {productBadge && <span className="product-tag">{productBadge}</span>}
+                    {productUnavailable && (
+                      <span className="listing-status-banner">{productStatus}</span>
+                    )}
                     <button
                       type="button"
                       className={`save-toggle ${isSaved ? "is-saved" : ""}`}
@@ -623,7 +640,7 @@ export default function App() {
 
             <div className="modal-gallery">
               <div
-                className={`modal-image tone-${selectedListing.theme} ${imageZoomed ? "is-zoomed" : ""}`}
+                className={`modal-image tone-${selectedListing.theme} ${imageZoomed ? "is-zoomed" : ""} ${selectedListingUnavailable ? "is-unavailable" : ""}`}
                 role="button"
                 tabIndex={0}
                 aria-label={
@@ -657,6 +674,9 @@ export default function App() {
                 {selectedListingBadge && (
                   <span className="product-tag">{selectedListingBadge}</span>
                 )}
+                {selectedListingUnavailable && (
+                  <span className="listing-status-banner">{selectedListingStatus}</span>
+                )}
                 <span className="modal-image-index">
                   {selectedImageIndex + 1} / {selectedListing.images.length} ·{" "}
                   {selectedListing.id}
@@ -667,7 +687,10 @@ export default function App() {
               </div>
 
               {selectedListing.images.length > 1 && (
-                <div className="modal-thumbnails" aria-label="Listing images">
+                <div
+                  className={`modal-thumbnails ${selectedListingUnavailable ? "is-unavailable" : ""}`}
+                  aria-label="Listing images"
+                >
                   {selectedListing.images.map((image, index) => (
                     <button
                       className={selectedImageIndex === index ? "active" : ""}
@@ -692,7 +715,9 @@ export default function App() {
             <div className="modal-content">
               <div className="modal-kicker">
                 <span>{selectedListing.game}</span>
-                <span>{selectedListing.status}</span>
+                <span className={selectedListingUnavailable ? "is-unavailable" : ""}>
+                  {selectedListingStatus}
+                </span>
               </div>
               <h2 id="listing-modal-title">{selectedListing.title}</h2>
               <p className="modal-description">{selectedListing.description}</p>

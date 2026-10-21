@@ -1,6 +1,6 @@
 export type ListingGame = "Pokémon" | "One Piece" | "Magic";
 export type ListingSeller = "Blue Byte" | "Red Pixel";
-export type ListingStatus = "available" | "sold" | "draft";
+export type ListingStatus = "available" | "sold" | "unavailable" | "draft";
 
 export type Listing = {
   id: string;
@@ -23,6 +23,7 @@ export type Listing = {
   tags: string[];
   featured: boolean;
   status: ListingStatus;
+  availableTo?: string;
   createdAt: string;
   theme: "blue" | "red" | "gold" | "orange" | "mint" | "violet";
 };

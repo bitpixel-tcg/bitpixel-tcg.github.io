@@ -33,7 +33,14 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 - `marketplace`: `Cardmarket`, `eBay`, `Tradera`, or `Other`
 - `marketplaceUrl`: The complete URL visitors should open
 - `tags`: Lowercase search terms that are not already obvious from the title
-- `status`: `available`, `sold`, or `draft`; only available items are shown
+- `status`: `available`, `sold`, `unavailable`, or `draft`; all except drafts
+  are shown. Sold and unavailable listings remain interactive but are visually
+  marked in the catalogue
+- `availableTo`: Optional ISO date or date/time for auction listings. Once this
+  time is reached, an otherwise available listing is automatically displayed as
+  `Expired`. Omit this field for listings that will be marked sold or
+  unavailable manually. For precise auction endings, include the timezone, for
+  example `"2026-10-24T20:15:00+01:00"`
 - `featured`: Manually promotes a popular item; it shows a `Popular` badge and
   sorts before non-featured listings
 - `createdAt`: An ISO date in `YYYY-MM-DD` format; listings from today or the

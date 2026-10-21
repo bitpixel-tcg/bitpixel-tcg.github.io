@@ -637,6 +637,31 @@ button {
   transform: scale(1.015);
 }
 
+.product-card.is-unavailable .product-image img,
+.modal-image.is-unavailable img,
+.modal-thumbnails.is-unavailable img {
+  filter: grayscale(1) contrast(0.9);
+}
+
+.listing-status-banner {
+  width: 125%;
+  padding: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: white;
+  background: rgba(23, 23, 20, 0.88);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(15px, 2vw, 24px);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%) rotate(-12deg);
+  pointer-events: none;
+}
+
 .tone-blue { background: #aabfe5; }
 .tone-red { background: #e3ada4; }
 .tone-gold { background: #e8c973; }
@@ -667,7 +692,7 @@ button {
   position: absolute;
   top: 14px;
   right: 14px;
-  z-index: 2;
+  z-index: 4;
   display: grid;
   place-items: center;
   background: rgba(255,255,255,.88);
@@ -1209,6 +1234,10 @@ button {
   transform: scale(2.35);
 }
 
+.modal-image.is-unavailable.is-zoomed img {
+  filter: grayscale(1) contrast(0.9);
+}
+
 .modal-image:focus-visible {
   outline: 4px solid var(--blue);
   outline-offset: -4px;
@@ -1275,6 +1304,10 @@ button {
   height: 5px;
   border-radius: 50%;
   background: #68a75b;
+}
+
+.modal-kicker span + span.is-unavailable::before {
+  background: #77736b;
 }
 
 .modal-content h2 {
