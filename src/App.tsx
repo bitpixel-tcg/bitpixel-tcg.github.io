@@ -302,7 +302,7 @@ export default function App() {
           </h1>
           <div className="hero-actions">
             <button className="primary-button" type="button" onClick={scrollToCatalogue}>
-              Browse the drop <ArrowIcon />
+              Browse the catalogue <ArrowIcon />
             </button>
           </div>
         </div>
