@@ -8,12 +8,22 @@ import {
 import type { Listing } from "./types/listing";
 
 function formatPrice(listing: Listing) {
-  const formatted = new Intl.NumberFormat("en-IE", {
-    style: "currency",
-    currency: listing.price.currency,
-  }).format(listing.price.amount);
+  const { amount, currency, prefix } = listing.price;
 
-  return listing.price.prefix ? `${listing.price.prefix} ${formatted}` : formatted;
+  if (typeof amount !== "number" || !currency) {
+    return prefix ?? "View listing";
+  }
+
+  try {
+    const formatted = new Intl.NumberFormat("en-IE", {
+      style: "currency",
+      currency,
+    }).format(amount);
+
+    return prefix ? `${prefix} ${formatted}` : formatted;
+  } catch {
+    return prefix ? `${prefix} ${amount}` : String(amount);
+  }
 }
 
 const marketplaceProfiles = [

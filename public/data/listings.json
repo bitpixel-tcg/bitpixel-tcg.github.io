@@ -30,7 +30,7 @@
       "bidding"
     ],
     "featured": false,
-    "status": "available",
+    "status": "unavailable",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-23",
     "theme": "blue"
@@ -66,9 +66,9 @@
       "dark dragonite"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-10-23",
     "theme": "blue"
   },
   {
@@ -82,7 +82,7 @@
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 160,
+      "amount": 155,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -105,7 +105,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-11-02",
     "theme": "blue"
   },
   {
@@ -133,7 +133,7 @@
       "https://i.ebayimg.com/images/g/nlsAAeSwcPhqv6YT/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://https://www.ebay.co.uk/itm/257800268590?itmmeta=01M5MHNTD9TPJFMXX2A5BZ0ZMN&hash=item3c0617eb2e:g:zi4AAeSwkkdqv6Xd.io/m/GBC4Yf",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257800268590",
     "tags": [
       "simplified chinese",
       "card bundle",
@@ -147,7 +147,7 @@
       "2025"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-20",
     "availableTo": "2026-10-27",
     "theme": "blue"
@@ -172,7 +172,7 @@
       "https://i.ebayimg.com/images/g/V60AAeSwvs5q0ira/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801257362?epid=6052764970&itmmeta=01M5MHNTD9J8245RKM7RN8MRZ3&hash=item3c06270192:g:glcAAeSwNXtq0irS",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801257362",
     "tags": [
       "vintage",
       "ex team rocket returns",
@@ -181,7 +181,7 @@
       "ungraded"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-22",
     "theme": "blue"
@@ -206,7 +206,7 @@
       "https://i.ebayimg.com/images/g/dIUAAeSwsm5q0iyZ/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801269996?epid=28052758663&itmmeta=01M5MHNTD861VJATME7977ET7J&hash=item3c062732ec:g:EmQAAeSwY8Jq0iyR",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801269996",
     "tags": [
       "vintage",
       "reverse holo",
@@ -215,7 +215,7 @@
       "raw"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-23",
     "theme": "blue"
@@ -447,6 +447,39 @@
     "status": "available",
     "createdAt": "2026-10-21",
     "availableTo": "2026-10-28",
+    "theme": "blue"
+  },
+  {
+    "id": "pokemon-30th-celebrations-Pokemon-Center-elite-trainer-box-sealed",
+    "title": "Pokémon TCG: 30th Celebration Pokémon Center Elite Trainer Box",
+    "description": "Commemorate 30 years of joy with fan-favorite Pokémon spanning three dazzling decades! Celebrate this magnificent milestone with the mighty presences of Mewtwo ex and Mew ex, followed by a wealth of allies like Umbreon ex, Salamence ex, and Greninja ex. Plus, there are 30 reasons to honor Pikachu, as each booster pack contains one—with 30 unique variations to collect as Pikachu rare cards! And, whether you’re looking forward to a glittering future or taking a nostalgic look at a storied past, there are a host of treasures to find and secrets to reveal in the Pokémon TCG: 30th Celebration!",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Elite Trainer Box",
+    "language": "English",
+    "condition": "New/Factory Sealed",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 70,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://www.pokemoncenter.com/images/DAMRoot/High/10048/P11454_10-10447-108_01.jpg",
+      "https://www.pokemoncenter.com/images/DAMRoot/High/10048/P11454_10-10447-108_02.jpg",
+      "https://www.pokemoncenter.com/images/DAMRoot/High/10048/P11454_10-10447-108_03.jpg",
+      "https://www.pokemoncenter.com/images/DAMRoot/High/10048/P11454_10-10447-108_04.jpg",
+      "https://www.pokemoncenter.com/images/DAMRoot/High/10048/P11454_10-10447-108_05.jpg"
+    ],
+    "marketplace": "eBay",
+    "tags": [
+      "30th Celebrations",
+      "elite trainer box",
+      "booster packs",
+      "sealed"
+    ],
+    "featured": false,
+    "status": "unavailable",
     "theme": "blue"
   }
 ]

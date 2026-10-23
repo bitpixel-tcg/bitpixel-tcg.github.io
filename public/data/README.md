@@ -32,6 +32,9 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 - `seller`: `Blue Byte` or `Red Pixel`
 - `marketplace`: `Cardmarket`, `eBay`, `Tradera`, or `Other`
 - `marketplaceUrl`: The complete URL visitors should open
+- `price`: Normally includes numeric `amount`, three-letter `currency`, and an
+  optional `prefix`. For auctions without a displayed price, omit `amount` and
+  `currency` and use a prefix such as `"Bid now"`
 - `tags`: Lowercase search terms that are not already obvious from the title
 - `status`: `available`, `sold`, `unavailable`, or `draft`; all except drafts
   are shown. Sold and unavailable listings remain interactive but are visually

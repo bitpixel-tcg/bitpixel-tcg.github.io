@@ -1,4 +1,4 @@
-export type ListingGame = "Pokémon" | "One Piece" | "Magic";
+export type ListingGame = "Pokémon" | "One Piece" | "Magic" | "Yugioh";
 export type ListingSeller = "Blue Byte" | "Red Pixel";
 export type ListingStatus = "available" | "sold" | "unavailable" | "draft";
 
@@ -13,17 +13,17 @@ export type Listing = {
   condition: string;
   seller: ListingSeller;
   price: {
-    amount: number;
-    currency: string;
+    amount?: number;
+    currency?: string;
     prefix?: string;
   };
   images: string[];
   marketplace: "Cardmarket" | "eBay" | "Tradera" | "Other";
-  marketplaceUrl: string;
+  marketplaceUrl?: string;
   tags: string[];
   featured: boolean;
   status: ListingStatus;
   availableTo?: string;
-  createdAt: string;
+  createdAt?: string;
   theme: "blue" | "red" | "gold" | "orange" | "mint" | "violet";
 };
