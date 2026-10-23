@@ -315,7 +315,7 @@
       "first edition",
       "1st edition",
       "holo",
-      "promos",
+      "promo",
       "commons",
       "trainer cards",
       "energy cards",
@@ -420,9 +420,7 @@
     "condition": "New/Factory Sealed",
     "seller": "Blue Byte",
     "price": {
-      "amount": 136.49,
-      "currency": "GBP",
-      "prefix": "Bid or Buy It Now"
+      "prefix": "Bid now"
     },
     "images": [
       "https://i.ebayimg.com/images/g/D-IAAeSwurRq2M6B/s-l1600.webp",
@@ -440,6 +438,7 @@
       "etb",
       "scarlet violet",
       "pecharunt promo",
+      "promo",
       "2024 pokemon",
       "booster packs"
     ],

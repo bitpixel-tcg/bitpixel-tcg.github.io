@@ -618,7 +618,7 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
           <p>
             We scout, compare, and link you straight to the listing.
             <br />
-            No middleman—just good finds.
+            No middleman - just good finds.
           </p>
         </div>
 
