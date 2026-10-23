@@ -30,9 +30,9 @@
       "bidding"
     ],
     "featured": false,
-    "status": "available",
+    "status": "unavailable",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-10-23",
     "theme": "blue"
   },
   {
@@ -55,7 +55,7 @@
       "https://i.ebayimg.com/images/g/UWkAAeSwiB5q0ilw/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://ebay.io/m/7qPgQJ",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801251271?epid=24052750540&itmmeta=01M5MHNTD9SZ96VA6QY7Q79VBZ&hash=item3c0626e9c7:g:R7kAAeSw75Vq0ilm",
     "tags": [
       "vintage",
       "ungraded",
@@ -66,7 +66,7 @@
       "dark dragonite"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-24",
     "theme": "blue"
@@ -82,7 +82,7 @@
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 215,
+      "amount": 160,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -133,7 +133,7 @@
       "https://i.ebayimg.com/images/g/nlsAAeSwcPhqv6YT/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://ebay.io/m/GBC4Yf",
+    "marketplaceUrl": "https://https://www.ebay.co.uk/itm/257800268590?itmmeta=01M5MHNTD9TPJFMXX2A5BZ0ZMN&hash=item3c0617eb2e:g:zi4AAeSwkkdqv6Xd.io/m/GBC4Yf",
     "tags": [
       "simplified chinese",
       "card bundle",
@@ -147,7 +147,7 @@
       "2025"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-20",
     "availableTo": "2026-10-27",
     "theme": "blue"
@@ -172,7 +172,7 @@
       "https://i.ebayimg.com/images/g/V60AAeSwvs5q0ira/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://ebay.io/m/sHUzzy",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801257362?epid=6052764970&itmmeta=01M5MHNTD9J8245RKM7RN8MRZ3&hash=item3c06270192:g:glcAAeSwNXtq0irS",
     "tags": [
       "vintage",
       "ex team rocket returns",
@@ -181,9 +181,9 @@
       "ungraded"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-10-22",
     "theme": "blue"
   },
   {
@@ -206,7 +206,7 @@
       "https://i.ebayimg.com/images/g/dIUAAeSwsm5q0iyZ/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://ebay.io/m/yZumou",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257801269996?epid=28052758663&itmmeta=01M5MHNTD861VJATME7977ET7J&hash=item3c062732ec:g:EmQAAeSwY8Jq0iyR",
     "tags": [
       "vintage",
       "reverse holo",
@@ -215,9 +215,9 @@
       "raw"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-10-23",
     "theme": "blue"
   },
   {
@@ -280,9 +280,7 @@
     "condition": "Lightly Played to Heavily Played (LP-HP)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 315,
-      "currency": "GBP",
-      "prefix": "Bid or Buy It Now"
+      "prefix": "Bid now"
     },
     "images": [
       "https://i.ebayimg.com/images/g/fI0AAeSw1qxq0~qJ/s-l1600.webp",
