@@ -66,7 +66,7 @@
       "dark dragonite"
     ],
     "featured": false,
-    "status": "sold",
+    "status": "unavailable",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-24",
     "theme": "blue"
@@ -147,7 +147,7 @@
       "2025"
     ],
     "featured": false,
-    "status": "sold",
+    "status": "unavailable",
     "createdAt": "2026-10-20",
     "availableTo": "2026-10-27",
     "theme": "blue"
@@ -181,7 +181,7 @@
       "ungraded"
     ],
     "featured": false,
-    "status": "sold",
+    "status": "unavailable",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-22",
     "theme": "blue"
@@ -215,7 +215,7 @@
       "raw"
     ],
     "featured": false,
-    "status": "sold",
+    "status": "unavailable",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-23",
     "theme": "blue"
