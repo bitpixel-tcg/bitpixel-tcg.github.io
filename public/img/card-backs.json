@@ -1,0 +1,8 @@
+{
+  "backs": [
+    { "file": "backs/pokemon-blue.jpg", "game": "Pokémon" },
+    { "file": "backs/yugioh-back.webp", "game": "Yugioh" },
+    { "file": "backs/one-piece.jpg", "game": "One Piece" },
+    { "file": "backs/magic.webp", "game": "Magic" }
+  ]
+}

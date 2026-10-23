@@ -3,6 +3,11 @@
 The public catalogue is generated from `listings.json`. Add, edit, or remove
 objects in that array to update the website; no React changes are required.
 
+The landing-page news feed is generated from `news.json`. Items appear in file
+order and support `id`, `title`, `summary`, and `dateLabel`. Optional
+`href` and `linkLabel` fields add an external link to a news item; use the
+complete `https://` URL.
+
 ## Images
 
 `images` is a JSON list containing one or more image paths. The first image is
@@ -27,7 +32,7 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 ## Important fields
 
 - `id`: A unique, permanent slug such as `sv151-etb-001`
-- `game`: `Pokémon`, `One Piece`, or `Magic`
+- `game`: `Pokémon`, `One Piece`, `Magic`, or `Yugioh`
 - `category`: `Sealed`, `Singles`, or `Accessories`
 - `seller`: `Blue Byte` or `Red Pixel`
 - `marketplace`: `Cardmarket`, `eBay`, `Tradera`, or `Other`

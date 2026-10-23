@@ -27,7 +27,8 @@ export function isListingAvailable(listing: Listing, now = new Date()) {
   );
 }
 
-export function isNewListing(createdAt: string, today = new Date()) {
+export function isNewListing(createdAt?: string, today = new Date()) {
+  if (!createdAt) return false;
   const [year, month, day] = createdAt.split("-").map(Number);
   if (!year || !month || !day) return false;
 
@@ -80,6 +81,6 @@ export async function getListings(): Promise<Listing[]> {
       (a, b) =>
         Number(isListingAvailable(b, now)) - Number(isListingAvailable(a, now)) ||
         Number(b.featured) - Number(a.featured) ||
-        Date.parse(b.createdAt) - Date.parse(a.createdAt),
+        Date.parse(b.createdAt ?? "") - Date.parse(a.createdAt ?? ""),
     );
 }
