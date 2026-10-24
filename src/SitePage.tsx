@@ -560,7 +560,6 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                 </div>
               </button>
             ))}
-            <span className="pixel-spark spark-one" />
             <span className="pixel-spark spark-two" />
           </div>
 
