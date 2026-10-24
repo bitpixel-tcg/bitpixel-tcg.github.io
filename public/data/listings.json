@@ -444,7 +444,7 @@
     "featured": true,
     "status": "available",
     "createdAt": "2026-10-21",
-    "availableTo": "2026-10-28",
+    "availableTo": "2026-10-28T16:40:00+01:00",
     "theme": "blue"
   },
   {
