@@ -472,9 +472,6 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
         <nav aria-label="Main navigation">
           <Link to="/">Home</Link>
           <Link to="/catalogue">Catalogue</Link>
-          <Link to={`${page === "home" ? "/" : "/catalogue"}?section=marketplaces`}>
-            Marketplaces
-          </Link>
           <a href="mailto:bitpixeltcg@hotmail.com">Contact</a>
         </nav>
 
