@@ -1008,7 +1008,7 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                   >
                     <span>
                       {selectedListingUnavailable ? (
-                        "View Listing →"
+                        "View Listing"
                       ) : (
                         <>
                           <small>{formatPrice(selectedListing)}</small>
