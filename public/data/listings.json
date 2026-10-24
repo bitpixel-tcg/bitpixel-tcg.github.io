@@ -30,7 +30,7 @@
       "bidding"
     ],
     "featured": false,
-    "status": "unavailable",
+    "status": "available",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-23",
     "theme": "blue"
@@ -326,7 +326,7 @@
       "raw"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-17",
     "availableTo": "2026-10-24",
     "theme": "blue"

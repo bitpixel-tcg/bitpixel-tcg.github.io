@@ -773,7 +773,7 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                           aria-label={`View ${product.title} on ${product.marketplace}`}
                           onClick={(event) => event.stopPropagation()}
                         >
-                          <span>{formatPrice(product)}</span>
+                          <span>{productUnavailable ? "View listing" : formatPrice(product)}</span>
                           <ArrowIcon />
                         </a>
                       ) : (
