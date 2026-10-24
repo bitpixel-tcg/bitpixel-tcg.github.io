@@ -342,9 +342,7 @@
     "condition": "Lightly Played to Heavily Played (LP-HP)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 35,
-      "currency": "GBP",
-      "prefix": "Bid or Buy It Now"
+      "prefix": "Bid now"
     },
     "images": [
       "https://i.ebayimg.com/images/g/KtgAAeSwld9q13A1/s-l1600.webp",
