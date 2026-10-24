@@ -118,6 +118,22 @@ function pickHeroListings(listings: Listing[], savedIds: string[], count: number
   return chosen;
 }
 
+const UNAVAILABLE_LISTING_URLS: Record<Listing["seller"], string> = {
+  "Blue Byte": "https://www.ebay.co.uk/sch/i.html?_dkr=1&iconV2Request=true&_blrs=recall_filtering&_ssn=bitpixeltcg&_oac=1&LH_Sold=1",
+  "Red Pixel": "https://www.tradera.com/profile/items/6354053/flabberific?pageSize=80&itemStatus=Sold",
+};
+
+function getListingActionUrl(listing: Listing) {
+  // A date-expired listing can still have status="available" in the data,
+  // so use the display status as well as the raw status field.
+  const isCurrentlyAvailable =
+    listing.status === "available" && getListingDisplayStatus(listing) === "Available";
+
+  return isCurrentlyAvailable
+    ? listing.marketplaceUrl
+    : UNAVAILABLE_LISTING_URLS[listing.seller];
+}
+
 function formatPrice(listing: Listing) {
   const { amount, currency, prefix } = listing.price;
 
@@ -765,15 +781,15 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                           {product.seller}
                         </b>
                       </div>
-                      {product.marketplaceUrl ? (
+                      {getListingActionUrl(product) ? (
                         <a
-                          href={product.marketplaceUrl}
+                          href={getListingActionUrl(product)}
                           target="_blank"
                           rel="noreferrer"
                           aria-label={`View ${product.title} on ${product.marketplace}`}
                           onClick={(event) => event.stopPropagation()}
                         >
-                          <span>{productUnavailable ? "View listing" : formatPrice(product)}</span>
+                          <span>{productUnavailable ? "View Listing" : formatPrice(product)}</span>
                           <ArrowIcon />
                         </a>
                       ) : (
@@ -982,15 +998,21 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                     {selectedListing.seller}
                   </b>
                 </div>
-                {selectedListing.marketplaceUrl ? (
+                {getListingActionUrl(selectedListing) ? (
                   <a
-                    href={selectedListing.marketplaceUrl}
+                    href={getListingActionUrl(selectedListing)}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span>
-                      <small>{formatPrice(selectedListing)}</small>
-                      View on {selectedListing.marketplace}
+                      {selectedListingUnavailable ? (
+                        "View Listing →"
+                      ) : (
+                        <>
+                          <small>{formatPrice(selectedListing)}</small>
+                          View on {selectedListing.marketplace}
+                        </>
+                      )}
                     </span>
                     <ArrowIcon />
                   </a>
