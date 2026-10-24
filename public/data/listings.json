@@ -267,7 +267,7 @@
     "featured": false,
     "status": "available",
     "createdAt": "2026-10-17",
-    "availableTo": "2026-10-24",
+    "availableTo": "2026-10-24T17:30:00-01:00",
     "theme": "blue"
   },
   {
