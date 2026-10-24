@@ -124,12 +124,14 @@ const UNAVAILABLE_LISTING_URLS: Record<Listing["seller"], string> = {
 };
 
 function getListingActionUrl(listing: Listing) {
-  // A date-expired listing can still have status="available" in the data,
-  // so use the display status as well as the raw status field.
-  const isCurrentlyAvailable =
-    listing.status === "available" && getListingDisplayStatus(listing) === "Available";
+  // Expired or manually unavailable listings should not link to a marketplace.
+  // Sold listings can still direct visitors to the seller's sold listings page.
+  const displayStatus = getListingDisplayStatus(listing);
+  if (displayStatus === "Expired" || displayStatus === "Unavailable") {
+    return undefined;
+  }
 
-  return isCurrentlyAvailable
+  return displayStatus === "Available"
     ? listing.marketplaceUrl
     : UNAVAILABLE_LISTING_URLS[listing.seller];
 }
