@@ -366,7 +366,7 @@
       "raw"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-21",
     "availableTo": "2026-10-28",
     "theme": "blue"
@@ -403,7 +403,7 @@
       "raw"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-21",
     "availableTo": "2026-10-28",
     "theme": "blue"
@@ -478,6 +478,124 @@
     ],
     "featured": false,
     "status": "unavailable",
+    "theme": "blue"
+  },
+  {
+    "id": "yugioh-100-card-bundle-first-limited-editions-holos",
+    "title": "Yu-Gi-Oh! TCG Bundle - 100 Cards, 1st Editions, Limited Editions & Holos",
+    "description": "English Yu-Gi-Oh! TCG bundle of approximately 100 cards, including 1st Edition and Limited Edition cards, around 20 holographic cards, and a mixture of monsters, spells and traps. The seller estimates approximately £50 in card value, with some potentially underpriced 1st Edition cards and playable cards suitable for deck building. Cards are lightly played, with no creases, tears or similar damage reported. Photos show examples of the included cards; inspect them carefully. Cards will be shipped sleeved, top-loaded, team-bagged and protected in a padded envelope.",
+    "game": "Yu-Gi-Oh!",
+    "category": "Singles",
+    "productType": "Mixed Card Bundle",
+    "language": "English",
+    "condition": "Lightly Played (Excellent)",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 43.33,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/grkAAeSwqK9q3O5E/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/2NUAAeSwAeRq3O5O/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/gY0AAeSwfGxq3O5a/s-l1600.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257815604518",
+    "tags": [
+      "yugioh",
+      "card bundle",
+      "100 cards",
+      "first edition",
+      "holo cards",
+      "holos",
+      "bulk lot",
+      "deck building"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-10-25",
+    "availableTo": "2026-10-31T20:09:00+01:00",
+    "theme": "blue"
+  },
+  {
+    "id": "pokemon-tauros-lapras-gx-charizard-ex-trevenant-break-bundle",
+    "title": "Pokémon Card Bundle - Tauros GX, Lapras GX, Charizard EX & Trevenant BREAK",
+    "description": "English Pokémon TCG bundle of 5 cards:\n- Trevenant BREAK 66/122\n- Tauros GX 100/149\n- Lapras GX 35/149\n- Lapras GX 139/149\n- Charizard EX 11/106\n\nThe seller estimates the cards' combined market value at £35+. Cards are described as Lightly Played to Near Mint, with no creases, tears or similar damage reported. Please inspect the photos to judge condition for yourself. Cards will be shipped sleeved, top-loaded, team-bagged and protected in a padded envelope.",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "5-Card Bundle",
+    "language": "English",
+    "condition": "Lightly Played (Excellent)",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 10.03,
+      "currency": "GBP",
+      "prefix": "Bid"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/tyQAAeSwDCdq3PQS/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/F~cAAeSwfmdq3PQf/s-l1600.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257815627398",
+    "tags": [
+      "tauros gx",
+      "lapras gx",
+      "charizard ex",
+      "trevenant break",
+      "pokemon card bundle",
+      "sun moon",
+      "xy evolutions",
+      "holo cards",
+      "vintage pokemon",
+      "five card lot"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-10-25",
+    "availableTo": "2026-10-31T20:09:00+01:00",
+    "theme": "blue"
+  },
+  {
+    "id": "double-colorless-energy-evolutions-international-championships-stamped",
+    "title": "Double Colorless Energy 90/108 Evolutions International Championships Stamped",
+    "description": "English Pokémon TCG Double Colorless Energy 90/108 from XY Evolutions (2016), featuring the exclusive International Championships stamp. Illustrated by Keiji Kinebuchi. The seller describes the card as Lightly Played to Near Mint, with no creases, tears or similar damage. Please inspect the photos carefully to judge the condition. Ships sleeved, top-loaded and team-bagged in a padded bubble-wrap envelope. The seller notes previous sales in the UK and elsewhere, making this an interesting addition for collectors of championship-stamped Pokémon cards.",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Stamped Reverse Holo Energy Card",
+    "language": "English",
+    "condition": "Lightly Played to Near Mint",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 80.59,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/62IAAeSwmjNq3Pjz/s-l140.webp",
+      "https://i.ebayimg.com/images/g/Az4AAeSwEydq3Pj9/s-l140.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257815663119",
+    "tags": [
+      "double colorless energy",
+      "90/108",
+      "xy evolutions",
+      "international championships",
+      "championship stamped",
+      "reverse holo",
+      "stamped pokemon card",
+      "pokemon league",
+      "keiji kinebuchi",
+      "2016 pokemon",
+      "exclusive promo",
+      "vintage pokemon"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-10-25",
+    "availableTo": "2026-10-31T20:09:00+01:00",
     "theme": "blue"
   }
 ]
