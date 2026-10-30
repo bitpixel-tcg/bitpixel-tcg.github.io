@@ -82,7 +82,7 @@
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 155,
+      "amount": 100,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -442,7 +442,7 @@
       "booster packs"
     ],
     "featured": true,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-21",
     "availableTo": "2026-10-28T16:40:00+01:00",
     "theme": "blue"
