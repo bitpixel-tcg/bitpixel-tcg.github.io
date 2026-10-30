@@ -597,5 +597,84 @@
     "createdAt": "2026-10-25",
     "availableTo": "2026-10-31T20:09:00+01:00",
     "theme": "blue"
+  },
+  {
+    "id": "mightyena-cosmos-holo-018-108-deck-exclusives",
+    "title": "Vintage Mightyena - (Cosmos Holo) 018/108 Deck Exclusives Holo",
+    "description": "Vintage English Pokémon TCG Mightyena Cosmos Holo card, number 018/108, from the Deck Exclusives release (2007). Illustrated by Midori Harada. A vintage holo card for Pokémon collectors. Please inspect the listing photographs carefully to assess the card's condition.",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Cosmos Holo Pokémon Card",
+    "language": "English",
+    "condition": "Near Mint / Lightly Played (NM/LP)",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 6.71,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/INAAAeSwh9lq40Uh/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/hXAAAeSwoMFq40Uv/s-l1600.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257823477410",
+    "tags": [
+      "mightyena",
+      "018/108",
+      "deck exclusives",
+      "ex power keepers",
+      "cosmos holo",
+      "midori harada",
+      "2007 pokemon",
+      "vintage pokemon",
+      "holo rare",
+      "pokemon tcg"
+    ],
+    "featured": false,
+    "status": "available",
+    "theme": "blue"
+  },
+  {
+    "id": "pokemon-ex-emerald-vintage-card-bundle-001",
+    "title": "Vintage Pokemon Emerald Card Bundle Various Card LP/MP Read Desc.",
+    "description": "Vintage English Pokémon TCG card bundle featuring various cards from the EX Emerald set (2005), including Blaziken, Sceptile, Vulpix, Mudkip, Kyogre, Gulpin and other Pokémon and Trainer cards. The seller describes the cards as ranging from Lightly Played to Moderately Played (LP/MP). Fronts are generally in better condition than backs, with some scuffed backs and creases on Kyogre and Gulpin. These two cards are included essentially free and do not affect the asking price. Cards will be shipped sleeved, top-loaded, team-bagged and protected in a padded bubble-wrap envelope. Please inspect all photographs carefully to judge the condition.",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Vintage Pokémon Card Bundle",
+    "language": "English",
+    "condition": "Lightly Played to Moderately Played (LP/MP)",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 19.95,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/D98AAeSwi1tq43~I/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/JSMAAeSwFthq43~Q/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/A1wAAeSw~ahq43~X/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/e20AAeSw0VRq43~f/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/rSQAAeSw7oNq43~p/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/D4QAAeSw7wpq43~y/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/c5oAAeSw7Vdq43~7/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/BTkAAeSw-X1q44AC/s-l1600.webp",
+      "https://i.ebayimg.com/images/g/r1QAAeSwYNlq44AK/s-l1600.webp"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257823838715",
+    "tags": [
+      "pokemon emerald",
+      "ex emerald",
+      "2005 pokemon",
+      "vintage pokemon cards",
+      "card bundle",
+      "trainer cards",
+      "pokemon collection",
+      "english pokemon"
+    ],
+    "featured": false,
+    "status": "available",
+    "theme": "blue"
   }
 ]
