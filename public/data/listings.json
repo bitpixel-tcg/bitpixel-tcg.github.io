@@ -481,9 +481,9 @@
     "theme": "blue"
   },
   {
-    "id": "yugioh-100-card-bundle-first-limited-editions-holos",
-    "title": "Yu-Gi-Oh! TCG Bundle - 100 Cards, 1st Editions, Limited Editions & Holos",
-    "description": "English Yu-Gi-Oh! TCG bundle of approximately 100 cards, including 1st Edition and Limited Edition cards, around 20 holographic cards, and a mixture of monsters, spells and traps. The seller estimates approximately £50 in card value, with some potentially underpriced 1st Edition cards and playable cards suitable for deck building. Cards are lightly played, with no creases, tears or similar damage reported. Photos show examples of the included cards; inspect them carefully. Cards will be shipped sleeved, top-loaded, team-bagged and protected in a padded envelope.",
+    "id": "yugioh-100-card-bundle-first-limited-editions-holos-002",
+    "title": "Yu-Gi-Oh! Card Bundle - 100 Cards, 1st Editions, Limited Editions & Holos",
+    "description": "English Yu-Gi-Oh! TCG bundle of approximately 100 cards, including numerous 1st Edition and Limited Edition cards, around 20 holographic cards, and a mixture of monsters, spells and traps. The seller estimates approximately £50 in card value, with at least 20 cards believed to be worth several pounds each. Some potentially underpriced 1st Edition cards may offer good value for collectors, resellers and players. Cards are Lightly Played (LP), with no creases, tears or similar damage reported. Photos show examples of the included cards; inspect them carefully. Cards will be shipped sleeved, top-loaded, team-bagged and protected in a padded envelope.",
     "game": "Yu-Gi-Oh!",
     "category": "Singles",
     "productType": "Mixed Card Bundle",
@@ -491,7 +491,7 @@
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 43.33,
+      "amount": 10.03,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -501,21 +501,28 @@
       "https://i.ebayimg.com/images/g/gY0AAeSwfGxq3O5a/s-l1600.webp"
     ],
     "marketplace": "eBay",
-    "marketplaceUrl": "https://www.ebay.co.uk/itm/257815604518",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257827258641",
     "tags": [
       "yugioh",
       "card bundle",
       "100 cards",
       "first edition",
+      "1st edition",
+      "limited edition",
       "holo cards",
       "holos",
+      "20 holos",
       "bulk lot",
-      "deck building"
+      "deck building",
+      "playable cards",
+      "reseller lot",
+      "ungraded",
+      "raw"
     ],
     "featured": false,
     "status": "available",
-    "createdAt": "2026-10-25",
-    "availableTo": "2026-10-31T20:09:00+01:00",
+    "createdAt": "2026-10-31",
+    "availableTo": "2026-11-07T21:03:00+01:00",
     "theme": "blue"
   },
   {
