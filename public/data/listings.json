@@ -464,7 +464,7 @@
     "condition": "Used",
     "seller": "Blue Byte",
     "price": {
-      "amount": 80.0,
+      "amount": 75.0,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -593,7 +593,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 20.0,
+      "amount": 16.15,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
