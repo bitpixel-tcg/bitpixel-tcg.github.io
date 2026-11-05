@@ -1,5 +1,98 @@
 [
   {
+    "id": "english-floette-xy139-promo-257836686104",
+    "ebayItemId": "257836686104",
+    "title": "English Floette XY139 Promo",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 2.24,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/YIEAAeSwSulq7KOs/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/ZvAAAeSw1vpq7KO0/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836686104?_skw=pokemon&hash=item3c08439b18:g:YIEAAeSwSulq7KOs",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-flying-pikachu-110-108-near-mint-257836665734",
+    "ebayItemId": "257836665734",
+    "title": "English Flying Pikachu 110/108 Near Mint",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 7.59,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/W~0AAeSwDDxq7J8i/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/PP0AAeSw8z1q7J8y/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836665734?_skw=pokemon&hash=item3c08434b86:g:W~0AAeSwDDxq7J8i",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-floette-rc18-rc32-lp-257836677741",
+    "ebayItemId": "257836677741",
+    "title": "English Floette RC18/RC32 LP",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 3.31,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/MTQAAeSwXxVq7KFi/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/Q-EAAeSwxeZq7KFq/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836677741?_skw=pokemon&hash=item3c08437a6d:g:MTQAAeSwXxVq7KFi",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
     "id": "english-squirtle-23-181-257835537299",
     "ebayItemId": "257835537299",
     "title": "English Squirtle 23/181",
