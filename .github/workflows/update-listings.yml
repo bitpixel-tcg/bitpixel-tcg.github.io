@@ -2,7 +2,7 @@ name: Update listings
 
 on:
   schedule:
-    - cron: "7 */2 * * *"   # 42 minutes past every 2 hours ; keeps data well inside eBay's 6-hour limit
+    - cron: "42 */2 * * *"   # 42 minutes past every 2 hours ; keeps data well inside eBay's 6-hour limit
   workflow_dispatch:       # manual run button
 
 permissions:
