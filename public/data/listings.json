@@ -760,9 +760,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-05"
   },
   {
     "id": "english-flying-pikachu-110-108-near-mint-257836665734",
@@ -886,9 +887,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-05"
   },
   {
     "id": "pikachu-60-106-ex-emerald-regular-257832722463",
@@ -1109,10 +1111,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-10T16:07:51.000Z"
+    "availableTo": "2026-11-10T16:07:51.000Z",
+    "endedAt": "2026-11-05"
   },
   {
     "id": "simplified-chinese-cs5-1c-pikachu-002-004-glitter-257830681328",
