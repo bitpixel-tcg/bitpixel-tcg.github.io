@@ -124,16 +124,61 @@ const UNAVAILABLE_LISTING_URLS: Record<Listing["seller"], string> = {
 };
 
 function getListingActionUrl(listing: Listing) {
-  // Expired or manually unavailable listings should not link to a marketplace.
-  // Sold listings can still direct visitors to the seller's sold listings page.
+  // Available listings open on their marketplace. Sold and expired listings
+  // send visitors to the seller's sold listings page so they can find similar
+  // items. Manually unavailable listings (withdrawn, not for sale) get no link.
   const displayStatus = getListingDisplayStatus(listing);
-  if (displayStatus === "Expired" || displayStatus === "Unavailable") {
+  if (displayStatus === "Unavailable") {
     return undefined;
   }
 
   return displayStatus === "Available"
     ? listing.marketplaceUrl
     : UNAVAILABLE_LISTING_URLS[listing.seller];
+}
+
+const MARKETPLACE_DOT_COLORS: Record<string, string> = {
+  eBay: "#0064d2",
+  Cardmarket: "#1f9d6b",
+  Tradera: "#f26522",
+  Other: "#8a8f98",
+};
+
+// Small source label shown at the bottom-left of each listing card, so it is
+// always clear which marketplace a listing comes from.
+function MarketplaceChip({ marketplace }: { marketplace: string }) {
+  return (
+    <div
+      className="marketplace-chip"
+      aria-label={`Listed on ${marketplace}`}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        alignSelf: "flex-start",
+        gap: 6,
+        marginTop: 10,
+        padding: "3px 9px",
+        borderRadius: 999,
+        fontSize: 11,
+        fontWeight: 600,
+        letterSpacing: "0.04em",
+        lineHeight: 1.4,
+        border: "1px solid rgba(127, 127, 127, 0.35)",
+        background: "rgba(127, 127, 127, 0.12)",
+      }}
+    >
+      <span
+        aria-hidden="true"
+        style={{
+          width: 7,
+          height: 7,
+          borderRadius: "50%",
+          background: MARKETPLACE_DOT_COLORS[marketplace] ?? MARKETPLACE_DOT_COLORS.Other,
+        }}
+      />
+      {marketplace}
+    </div>
+  );
 }
 
 function formatPrice(listing: Listing) {
@@ -800,6 +845,7 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                         </span>
                       )}
                     </div>
+                    <MarketplaceChip marketplace={product.marketplace} />
                   </div>
                 </article>
               );
@@ -1043,6 +1089,10 @@ export default function SitePage({ page }: { page: "home" | "catalogue" }) {
                 <div>
                   <dt>Condition</dt>
                   <dd>{selectedListing.condition}</dd>
+                </div>
+                <div>
+                  <dt>Marketplace</dt>
+                  <dd>{selectedListing.marketplace}</dd>
                 </div>
               </dl>
 

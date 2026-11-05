@@ -32,6 +32,10 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 ## Important fields
 
 - `id`: A unique, permanent slug such as `sv151-etb-001`
+- `ebayItemId`: Added automatically for eBay listings; it is the number in the
+  listing's eBay link (`ebay.co.uk/itm/<number>`) and lets the hourly sync
+  match each entry to eBay. Leave it alone on synced listings. Entries without
+  it are treated as manual and are never changed or removed by the sync
 - `game`: `Pokémon`, `One Piece`, `Magic`, or `Yugioh`
 - `category`: `Sealed`, `Singles`, or `Accessories`
 - `seller`: `Blue Byte` or `Red Pixel`
@@ -43,12 +47,23 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 - `tags`: Lowercase search terms that are not already obvious from the title
 - `status`: `available`, `sold`, `unavailable`, or `draft`; all except drafts
   are shown. Sold and unavailable listings remain interactive but are visually
-  marked in the catalogue
+  marked in the catalogue. Sold and expired
+  listings link to the seller's sold-items page; unavailable listings have no
+  link
 - `availableTo`: Optional ISO date or date/time for auction listings. Once this
   time is reached, an otherwise available listing is automatically displayed as
   `Expired`. Omit this field for listings that will be marked sold or
   unavailable manually. For precise auction endings, include the timezone, for
   example `"2026-10-24T20:15:00+01:00"`
+- `endedAt`: Added automatically by the eBay sync, as a `YYYY-MM-DD` date, when
+  a listing is found to have ended. The sync marks it `sold` (eBay's API cannot
+  tell a sale from a listing that was withdrawn or ended unsold; set `status`
+  to `unavailable` by hand for those, and the sync will leave it alone). Ended
+  listings stay on the site and send visitors to the seller's sold-items page.
+  The workflow sets `KEEP_ENDED_DAYS` very high so they are never removed
+  automatically; lower it (the script's own default is 30) to have the sync
+  delete ended listings after that many days. Delete this field to restart the
+  countdown, or if a listing is relisted
 - `featured`: Manually promotes a popular item; it shows a `Popular` badge and
   sorts before non-featured listings
 - `createdAt`: An ISO date in `YYYY-MM-DD` format; listings from today or the
@@ -57,3 +72,13 @@ WebP or AVIF images are recommended to keep the catalogue fast.
 
 Keep the file as valid JSON: property names and text use double quotes, and the
 last property in an object does not have a trailing comma.
+
+## Automatic eBay updates
+
+A scheduled GitHub Action (`.github/workflows/update-listings.yml`) runs
+`scripts/sync_ebay_listings.py` hourly. For listings that have an `ebayItemId`
+it refreshes only `title`, `price`, `availableTo`, and `status`; everything
+else in this file (description, tags, featured, theme, images, and so on) is
+yours and is never overwritten. New eBay listings are appended automatically
+with best-guess `game`, `category`, `language`, and `tags`, so check and refine
+them when you can. `listings-meta.json` records when eBay was last checked.
