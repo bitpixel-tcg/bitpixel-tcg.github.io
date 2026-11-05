@@ -1,5 +1,192 @@
 [
   {
+    "id": "english-alolan-persian-119-214-257836689550",
+    "ebayItemId": "257836689550",
+    "title": "English Alolan Persian 119/214",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 2.24,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/m2cAAeSw4TFq7KSJ/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/rs8AAeSwOIRq7KSS/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836689550?_skw=pokemon&hash=item3c0843a88e:g:m2cAAeSw4TFq7KSJ",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-sceptile-10-168-257836707039",
+    "ebayItemId": "257836707039",
+    "title": "English Sceptile 10/168",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 2.24,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/pAMAAeSw8nxq7KVE/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/uBsAAeSwH8lq7KVV/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836707039?_skw=pokemon&hash=item3c0843ecdf:g:pAMAAeSw8nxq7KVE",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-floette-xy139-promo-257836686104",
+    "ebayItemId": "257836686104",
+    "title": "English Floette XY139 Promo",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 2.24,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/YIEAAeSwSulq7KOs/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/ZvAAAeSw1vpq7KO0/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836686104?_skw=pokemon&hash=item3c08439b18:g:YIEAAeSwSulq7KOs",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-flying-pikachu-110-108-near-mint-257836665734",
+    "ebayItemId": "257836665734",
+    "title": "English Flying Pikachu 110/108 Near Mint",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 7.59,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/W~0AAeSwDDxq7J8i/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/PP0AAeSw8z1q7J8y/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836665734?_skw=pokemon&hash=item3c08434b86:g:W~0AAeSwDDxq7J8i",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-floette-rc18-rc32-lp-257836677741",
+    "ebayItemId": "257836677741",
+    "title": "English Floette RC18/RC32 LP",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 3.31,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/MTQAAeSwXxVq7KFi/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/Q-EAAeSwxeZq7KFq/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257836677741?_skw=pokemon&hash=item3c08437a6d:g:MTQAAeSwXxVq7KFi",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-05",
+    "theme": "blue"
+  },
+  {
+    "id": "english-squirtle-23-181-257835537299",
+    "ebayItemId": "257835537299",
+    "title": "English Squirtle 23/181",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 1.17,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/SGkAAeSwumxq69SJ/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/q68AAeSw~Hxq69SS/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257835537299?_skw=pokemon&hash=item3c08321393:g:SGkAAeSwumxq69SJ",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "sold",
+    "createdAt": "2026-11-05",
+    "theme": "blue",
+    "endedAt": "2026-11-05"
+  },
+  {
     "id": "asako-ito-english-crochet-shelgon-105-168-257832228326",
     "ebayItemId": "257832228326",
     "title": "Asako Ito English Crochet Shelgon 105/168",
@@ -432,7 +619,7 @@
     "condition": "Used",
     "seller": "Blue Byte",
     "price": {
-      "amount": 80.0,
+      "amount": 75.0,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -561,7 +748,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 20.0,
+      "amount": 16.15,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
