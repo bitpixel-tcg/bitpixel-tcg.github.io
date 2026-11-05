@@ -952,10 +952,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-05T23:27:19.000Z"
+    "availableTo": "2026-11-05T23:27:19.000Z",
+    "endedAt": "2026-11-05"
   },
   {
     "id": "mixed-sets-unsorted-pokemon-deck-bulk-lp-nm-read-d-257832537572",
