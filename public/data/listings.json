@@ -1,5 +1,98 @@
 [
   {
+    "id": "english-mudkip-33-168-nm-257838911960",
+    "ebayItemId": "257838911960",
+    "title": "English Mudkip 33/168 NM",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 1.17,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/KzcAAeSwX-1q7g2b/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/HxkAAeSw8Rpq7g2k/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257838911960?_skw=pokemon&hash=item3c086591d8:g:KzcAAeSwX-1q7g2b",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-06",
+    "theme": "blue"
+  },
+  {
+    "id": "english-unown-x91-214-lp-257838908726",
+    "ebayItemId": "257838908726",
+    "title": "English Unown X91/214 LP",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 1.17,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/~4YAAeSwvAdq7gzY/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/sqEAAeSwcvBq7gzg/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257838908726?_skw=pokemon&hash=item3c08658536:g:~4YAAeSwvAdq7gzY",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-06",
+    "theme": "blue"
+  },
+  {
+    "id": "english-chansey-152-215-nm-lp-257838905867",
+    "ebayItemId": "257838905867",
+    "title": "English Chansey 152/215 NM/LP",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 1.17,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/IYkAAeSwelBq7gvi/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/-v0AAeSw~epq7gvq/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257838905867?_skw=pokemon&hash=item3c08657a0b:g:IYkAAeSwelBq7gvi",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-06",
+    "theme": "blue"
+  },
+  {
     "id": "new-delta-reign-booster-box-36-packs-sealed-257838804843",
     "ebayItemId": "257838804843",
     "title": "New Delta Reign Booster Box 36 Packs Sealed",
@@ -11,7 +104,7 @@
     "condition": "New/Factory Sealed",
     "seller": "Blue Byte",
     "price": {
-      "amount": 195.0,
+      "amount": 185.0,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
@@ -1428,7 +1521,7 @@
     "condition": "Used",
     "seller": "Blue Byte",
     "price": {
-      "amount": 75.0,
+      "amount": 68.3,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
