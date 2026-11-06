@@ -1,5 +1,36 @@
 [
   {
+    "id": "english-squirtle-23-181-257838634459",
+    "ebayItemId": "257838634459",
+    "title": "English Squirtle 23/181",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 1.5,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/Ac0AAeSwMOVq7d5X/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/PSUAAeSwt15q7d5f/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257838634459?_skw=pokemon&hash=item3c086155db:g:Ac0AAeSwMOVq7d5X",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-06",
+    "theme": "blue"
+  },
+  {
     "id": "vintage-fieldworker-73-92-legend-make-holo-perfect-257838618302",
     "ebayItemId": "257838618302",
     "title": "Vintage Fieldworker 73/92 Legend Make Holo Perfect Swirl Stamped Read Desc",
@@ -1494,7 +1525,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 16.15,
+      "amount": 15.0,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
