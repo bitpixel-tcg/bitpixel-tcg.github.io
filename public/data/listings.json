@@ -3207,7 +3207,7 @@
     "condition": "Lightly Played (Excellent)",
     "seller": "Blue Byte",
     "price": {
-      "amount": 15.01,
+      "amount": 15.0,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
