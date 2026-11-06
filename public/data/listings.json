@@ -121,9 +121,10 @@
       "sealed"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-06",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-06"
   },
   {
     "id": "english-squirtle-23-181-257838634459",
