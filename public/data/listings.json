@@ -1,5 +1,38 @@
 [
   {
+    "id": "new-delta-reign-booster-box-36-packs-sealed-257838804843",
+    "ebayItemId": "257838804843",
+    "title": "New Delta Reign Booster Box 36 Packs Sealed",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Sealed Product",
+    "language": "English",
+    "condition": "New/Factory Sealed",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 195.0,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/3XEAAeSw-rZq7fte/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/9AcAAeSwRblq7ft2/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/axMAAeSw-~1q7fuM/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/D78AAeSwJaBq7fuB/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257838804843?_skw=pokemon&hash=item3c0863ef6b:g:3XEAAeSw-rZq7fte",
+    "tags": [
+      "pokémon",
+      "sealed"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-06",
+    "theme": "blue"
+  },
+  {
     "id": "english-squirtle-23-181-257838634459",
     "ebayItemId": "257838634459",
     "title": "English Squirtle 23/181",
