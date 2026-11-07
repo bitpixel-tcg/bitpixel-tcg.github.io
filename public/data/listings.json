@@ -1,5 +1,38 @@
 [
   {
+    "id": "yugioh-card-bundle-first-editions-limited-editions-257840973467",
+    "ebayItemId": "257840973467",
+    "title": "Yugioh Card Bundle First Editions, Limited Editions, Holos, Commons. Read Desc.",
+    "description": "",
+    "game": "Yu-Gi-Oh!",
+    "category": "Singles",
+    "productType": "Mixed Card Bundle",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 10.0,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/grkAAeSwqK9q3O5E/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/2NUAAeSwAeRq3O5O/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/gY0AAeSwfGxq3O5a/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257840973467?_skw=card+bundle&hash=item3c0885069b:g:grkAAeSwqK9q3O5E",
+    "tags": [
+      "singles",
+      "yugioh"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-07",
+    "theme": "blue",
+    "availableTo": "2026-11-14T20:28:18.000Z"
+  },
+  {
     "id": "simplified-chinese-30th-anniversary-futuristic-mew-257840756976",
     "ebayItemId": "257840756976",
     "title": "Simplified Chinese 30th Anniversary Futuristic Mewtwo ex 134/103 Pack Fresh Mint",
@@ -1303,9 +1336,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-07"
   },
   {
     "id": "vintage-english-ex-emerald-mudkip-56-106-257834560251",
@@ -1504,10 +1538,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-07T21:16:12.000Z"
+    "availableTo": "2026-11-07T21:16:12.000Z",
+    "endedAt": "2026-11-07"
   },
   {
     "id": "simplified-chinese-cbb3c-gengar-0305-07-masterball-257828803855",
@@ -1587,7 +1622,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 30.0,
+      "amount": 26.7,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -1714,7 +1749,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 25.0,
+      "amount": 21.5,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
