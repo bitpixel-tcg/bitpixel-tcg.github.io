@@ -3259,11 +3259,12 @@
       "ungraded"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-31",
     "availableTo": "2026-11-07T20:03:40.000Z",
     "theme": "blue",
-    "ebayItemId": "257827258641"
+    "ebayItemId": "257827258641",
+    "endedAt": "2026-11-07"
   },
   {
     "id": "pokemon-tauros-lapras-gx-charizard-ex-trevenant-break-bundle",
@@ -3293,11 +3294,12 @@
       "vintage"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-10-31",
     "availableTo": "2026-11-07T19:35:24.000Z",
     "theme": "blue",
-    "ebayItemId": "257827230621"
+    "ebayItemId": "257827230621",
+    "endedAt": "2026-11-07"
   },
   {
     "id": "double-colorless-energy-evolutions-international-championships-stamped",
