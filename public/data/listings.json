@@ -1,5 +1,35 @@
 [
   {
+    "id": "simplified-chinese-30th-anniversary-futuristic-mew-257840756976",
+    "ebayItemId": "257840756976",
+    "title": "Simplified Chinese 30th Anniversary Futuristic Mewtwo ex 134/103 Pack Fresh Mint",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "Chinese",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 10.8,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/tVYAAeSwxeZq71hr/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257840756976?_skw=pokemon&hash=item3c0881b8f0:g:tVYAAeSwxeZq71hr",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-07",
+    "theme": "blue"
+  },
+  {
     "id": "english-mudkip-33-168-nm-257838911960",
     "ebayItemId": "257838911960",
     "title": "English Mudkip 33/168 NM",
@@ -1195,7 +1225,7 @@
     "condition": "Used",
     "seller": "Blue Byte",
     "price": {
-      "amount": 10.8,
+      "amount": 10.0,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
