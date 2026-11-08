@@ -89,9 +89,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-06",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-08"
   },
   {
     "id": "english-unown-x91-214-lp-257838908726",
@@ -152,9 +153,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-06",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-08"
   },
   {
     "id": "new-delta-reign-booster-box-36-packs-sealed-257838804843",
@@ -1941,7 +1943,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 10.0,
+      "amount": 8.66,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
