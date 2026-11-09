@@ -1561,9 +1561,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-09"
   },
   {
     "id": "vintage-mantine-45-109-ex-team-rocket-returns-reve-257832446687",
