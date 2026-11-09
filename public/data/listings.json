@@ -989,9 +989,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-09"
   },
   {
     "id": "english-sceptile-10-168-257836707039",
