@@ -1,5 +1,37 @@
 [
   {
+    "id": "vintage-bellossom-19-110-holo-stamped-ex-holon-pha-257846153849",
+    "ebayItemId": "257846153849",
+    "title": "Vintage Bellossom 19/110 Holo Stamped EX Holon Phantoms LP",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 18.0,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/rTAAAeSwsKZq5Nrg/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/Sl0AAeSwkYpq5N4v/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257846153849?_skw=pokemon&hash=item3c08d41279:g:rTAAAeSwsKZq5Nrg",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-10",
+    "theme": "blue",
+    "availableTo": "2026-11-17T21:13:53.000Z"
+  },
+  {
     "id": "english-team-up-blastoise-25-181-cracked-ice-holo-257845977616",
     "ebayItemId": "257845977616",
     "title": "English Team Up Blastoise 25/181 Cracked Ice Holo",
@@ -60,9 +92,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-09",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-10"
   },
   {
     "id": "simplified-chinese-csv9-5c-flutter-mane-079-208-257843815230",
@@ -1816,7 +1849,7 @@
     "condition": "Used",
     "seller": "Blue Byte",
     "price": {
-      "amount": 70.0,
+      "amount": 50.0,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -1962,9 +1995,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-10"
   },
   {
     "id": "english-unseen-forces-ariados-2-115-stamped-holo-l-257832384689",
