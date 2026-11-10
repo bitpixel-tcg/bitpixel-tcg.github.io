@@ -1831,10 +1831,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-10T15:32:07.000Z"
+    "availableTo": "2026-11-10T15:32:07.000Z",
+    "endedAt": "2026-11-10"
   },
   {
     "id": "vintage-groudon-14-106-ex-emerald-regular-mp-257832493549",
@@ -1957,10 +1958,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-10T15:22:16.000Z"
+    "availableTo": "2026-11-10T15:22:16.000Z",
+    "endedAt": "2026-11-10"
   },
   {
     "id": "simplified-chinese-cbb3c-banette-0705-07-masterbal-257828807824",
