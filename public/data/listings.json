@@ -1,5 +1,37 @@
 [
   {
+    "id": "mixed-sets-unsorted-pokemon-deck-bulk-lp-nm-read-d-257847555685",
+    "ebayItemId": "257847555685",
+    "title": "Mixed Sets Unsorted Pokemon Deck Bulk LP/NM Read Desc.",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Used",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 10.0,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/KfUAAeSwF2Jq6g-0/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/JEEAAeSwmANq6g-9/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257847555685?_skw=pokemon&hash=item3c08e97665:g:KfUAAeSwF2Jq6g-0",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-11",
+    "theme": "blue",
+    "availableTo": "2026-11-18T16:28:01.000Z"
+  },
+  {
     "id": "vintage-bellossom-19-110-holo-stamped-ex-holon-pha-257846153849",
     "ebayItemId": "257846153849",
     "title": "Vintage Bellossom 19/110 Holo Stamped EX Holon Phantoms LP",
@@ -1534,9 +1566,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-11"
   },
   {
     "id": "english-deck-exclusive-team-up-blastoise-25-181-no-257832163251",
