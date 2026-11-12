@@ -945,10 +945,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-flutter-mane-2805-07-mast-257836973329",
@@ -977,10 +978,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-ponyta-0105-07-masterball-257836973306",
@@ -1009,10 +1011,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-greavard-1605-07-masterba-257836973310",
@@ -1041,10 +1044,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-morpeko-1405-07-masterbal-257836973342",
@@ -1073,10 +1077,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-gengar-0305-07-masterball-257836979988",
@@ -1105,10 +1110,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:50:47.000Z"
+    "availableTo": "2026-11-12T17:50:47.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-lickitung-0205-07-masterb-257836973324",
@@ -1137,10 +1143,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-enamorus-2705-07-masterba-257836973327",
@@ -1169,10 +1176,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-sawsbuck-1805-07-masterba-257836973320",
@@ -1201,10 +1209,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-torkoal-0605-07-masterbal-257836973307",
@@ -1233,10 +1242,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-gardevoir-0605-07-masterb-257836973302",
@@ -1265,10 +1275,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-cramorant-2505-07-masterb-257836973322",
@@ -1297,10 +1308,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-charjabug-2105-07-masterb-257836973315",
@@ -1329,10 +1341,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-excadrill-1405-07-masterb-257836973318",
@@ -1361,10 +1374,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-froslass-1205-07-masterba-257836973326",
@@ -1393,10 +1407,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-annihilape-1805-07-master-257836973317",
@@ -1425,10 +1440,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-relicanth-0705-07-masterb-257836973313",
@@ -1457,10 +1473,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-chatot-1005-07-masterball-257836973314",
@@ -1489,10 +1506,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-banette-0705-07-masterbal-257836973312",
@@ -1521,10 +1539,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb3c-ceruledge-1505-07-masterb-257836973303",
@@ -1553,10 +1572,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:17.000Z"
+    "availableTo": "2026-11-12T17:49:17.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "simplified-chinese-cbb4c-probopass-1105-07-masterb-257836973309",
@@ -1585,10 +1605,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
     "theme": "blue",
-    "availableTo": "2026-11-12T17:49:18.000Z"
+    "availableTo": "2026-11-12T17:49:18.000Z",
+    "endedAt": "2026-11-12"
   },
   {
     "id": "english-alolan-persian-119-214-257836689550",
