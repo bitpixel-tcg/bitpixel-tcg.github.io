@@ -11,7 +11,7 @@
     "condition": "New/Factory Sealed",
     "seller": "Blue Byte",
     "price": {
-      "amount": 35.0,
+      "amount": 31.9,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
@@ -44,7 +44,7 @@
     "condition": "New/Factory Sealed",
     "seller": "Blue Byte",
     "price": {
-      "amount": 35.0,
+      "amount": 31.9,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -628,9 +628,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-09",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-13"
   },
   {
     "id": "yuka-morii-simplified-chinese-csv3c-larvesta-025-1-257843741833",
