@@ -948,10 +948,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-06",
     "theme": "blue",
-    "availableTo": "2026-11-13T13:52:14.000Z"
+    "availableTo": "2026-11-13T13:52:14.000Z",
+    "endedAt": "2026-11-13"
   },
   {
     "id": "double-colorless-energy-90-108-evolutions-exclusiv-257838623793",
@@ -980,10 +981,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-06",
     "theme": "blue",
-    "availableTo": "2026-11-13T13:57:02.000Z"
+    "availableTo": "2026-11-13T13:57:02.000Z",
+    "endedAt": "2026-11-13"
   },
   {
     "id": "simplified-chinese-cbb1c-sprigatito-0105-09-master-257836973304",
