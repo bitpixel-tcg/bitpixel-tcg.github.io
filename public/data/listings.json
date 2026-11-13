@@ -1,5 +1,72 @@
 [
   {
+    "id": "delta-reign-booster-bundle-6-packs-new-sealed-257850540166",
+    "ebayItemId": "257850540166",
+    "title": "Delta Reign Booster Bundle (6 Packs) New & Sealed",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Sealed Product",
+    "language": "English",
+    "condition": "New/Factory Sealed",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 35.0,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/U7QAAeSwoidq9vv6/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/vMIAAeSwkqhq9vwB/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/wF8AAeSwh~Bq9vwN/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/jc0AAeSwMBdq9vwU/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257850540166?_skw=card+bundle&hash=item3c09170086:g:U7QAAeSwoidq9vv6",
+    "tags": [
+      "pokémon",
+      "sealed"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-13",
+    "theme": "blue"
+  },
+  {
+    "id": "delta-reign-booster-bundle-6-packs-sealed-257850534483",
+    "ebayItemId": "257850534483",
+    "title": "Delta Reign Booster Bundle 6 Packs Sealed",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Sealed Product",
+    "language": "English",
+    "condition": "New/Factory Sealed",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 35.0,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/ysQAAeSwN~tq9vqH/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/XgUAAeSwS~Nq9vqR/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/t~gAAeSwd1dq9vqb/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/d3kAAeSwfHFq9vqm/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257850534483?_skw=card+bundle&hash=item3c0916ea53:g:ysQAAeSwN~tq9vqH",
+    "tags": [
+      "pokémon",
+      "sealed"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-13",
+    "theme": "blue",
+    "availableTo": "2026-11-20T11:59:05.000Z"
+  },
+  {
     "id": "30th-anniversary-simplified-chinese-pikachu-26-30-257847856205",
     "ebayItemId": "257847856205",
     "title": "30th Anniversary Simplified Chinese Pikachu 26/30 MINT",
