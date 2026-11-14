@@ -723,10 +723,11 @@
       "yugioh"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-07",
     "theme": "blue",
-    "availableTo": "2026-11-14T20:28:18.000Z"
+    "availableTo": "2026-11-14T20:28:18.000Z",
+    "endedAt": "2026-11-14"
   },
   {
     "id": "simplified-chinese-30th-anniversary-futuristic-mew-257840756976",
