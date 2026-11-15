@@ -28,9 +28,10 @@
       "sealed"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-13",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-15"
   },
   {
     "id": "delta-reign-booster-bundle-6-packs-sealed-257850534483",
