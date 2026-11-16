@@ -26,9 +26,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-16",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-16"
   },
   {
     "id": "simplified-chinese-30th-anniversary-meowth-daytime-257855301481",
@@ -57,9 +58,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-16",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-16"
   },
   {
     "id": "simplified-chinese-30th-anniversary-zapdos-108-103-257855276421",
@@ -88,9 +90,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-16",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-16"
   },
   {
     "id": "pokemon-simplified-chinese-30th-anniversary-bulk-a-257855197097",
@@ -2483,9 +2486,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-16"
   },
   {
     "id": "simplified-chinese-cbb3c-gardevoir-0605-07-masterb-257828800980",
@@ -2946,9 +2950,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-16"
   },
   {
     "id": "simplified-chinese-cbb3c-cubone-0405-07-masterball-257830214128",
