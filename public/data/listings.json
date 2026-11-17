@@ -144,7 +144,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 4.0,
+      "amount": 2.77,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
@@ -175,7 +175,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 2.0,
+      "amount": 1.7,
       "currency": "GBP",
       "prefix": "Buy It Now"
     },
