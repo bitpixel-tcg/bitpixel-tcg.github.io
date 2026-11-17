@@ -756,10 +756,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-10",
     "theme": "blue",
-    "availableTo": "2026-11-17T21:13:53.000Z"
+    "availableTo": "2026-11-17T21:13:53.000Z",
+    "endedAt": "2026-11-17"
   },
   {
     "id": "english-team-up-blastoise-25-181-cracked-ice-holo-257845977616",
