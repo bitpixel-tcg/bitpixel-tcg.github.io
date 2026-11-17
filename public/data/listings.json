@@ -791,10 +791,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-10",
     "theme": "blue",
-    "availableTo": "2026-11-17T19:16:07.000Z"
+    "availableTo": "2026-11-17T19:16:07.000Z",
+    "endedAt": "2026-11-17"
   },
   {
     "id": "pokemon-prismatic-evolutions-bulk-mint-commons-hol-257844267012",
