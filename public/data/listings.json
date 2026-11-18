@@ -756,10 +756,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-11",
     "theme": "blue",
-    "availableTo": "2026-11-18T16:28:01.000Z"
+    "availableTo": "2026-11-18T16:28:01.000Z",
+    "endedAt": "2026-11-18"
   },
   {
     "id": "vintage-bellossom-19-110-holo-stamped-ex-holon-pha-257846153849",
