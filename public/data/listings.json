@@ -1,5 +1,37 @@
 [
   {
+    "id": "pokemon-bulk-lot-330-cards-total-mint-condition-ch-257866529256",
+    "ebayItemId": "257866529256",
+    "title": "Pokemon Bulk Lot 330 Cards Total, MINT Condition, Cheap Rate. Read Desc.",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Mixed Card Bundle",
+    "language": "English",
+    "condition": "New",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 15.0,
+      "currency": "GBP",
+      "prefix": "Bid or Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/5joAAeSwXS9rA2~q/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/h8wAAeSwK8drA2~c/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257866529256?_skw=pokemon&hash=item3c0a0af9e8:g:5joAAeSwXS9rA2~q",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-22",
+    "theme": "blue",
+    "availableTo": "2026-11-29T22:49:34.000Z"
+  },
+  {
     "id": "english-twilight-masquerade-ogerpon-ex-199-167-min-257866121343",
     "ebayItemId": "257866121343",
     "title": "English Twilight Masquerade Ogerpon EX 199/167 MINT Condition New.",
@@ -212,9 +244,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-22",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-22"
   },
   {
     "id": "english-twilight-masquerade-survival-brace-164-167-257866081284",
@@ -259,7 +292,7 @@
     "condition": "Ungraded",
     "seller": "Blue Byte",
     "price": {
-      "amount": 120.0,
+      "amount": 100.0,
       "currency": "GBP",
       "prefix": "Bid or Buy It Now"
     },
@@ -4125,9 +4158,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-22"
   },
   {
     "id": "simplified-chinese-cbb4c-excadrill-1405-07-masterb-257829992962",
@@ -4188,9 +4222,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-22"
   },
   {
     "id": "grovyle-EXRS-31-109-RH",
