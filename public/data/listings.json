@@ -1,5 +1,39 @@
 [
   {
+    "id": "english-charmander-44-black-star-promo-sealed-mint-257867937917",
+    "ebayItemId": "257867937917",
+    "title": "English Charmander 44 Black Star Promo Sealed Mint Condition",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Sealed",
+    "productType": "Sealed Product",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 50.0,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/OgUAAeSwogRrBHUd/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/~3sAAeSwOQ1rBHUm/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/LdoAAeSwtTFrBHUu/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/IMoAAeSwRndrBHU3/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/MQQAAeSwN9trBHU~/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257867937917?_skw=pokemon&hash=item3c0a20787d:g:OgUAAeSwogRrBHUd",
+    "tags": [
+      "pokémon",
+      "sealed"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-23",
+    "theme": "blue"
+  },
+  {
     "id": "pokemon-bulk-lot-330-cards-total-mint-condition-ch-257866529256",
     "ebayItemId": "257866529256",
     "title": "Pokemon Bulk Lot 330 Cards Total, MINT Condition, Cheap Rate. Read Desc.",
@@ -121,9 +155,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-22",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-23"
   },
   {
     "id": "english-twilight-masquerade-rescue-board-gold-card-257866106181",
@@ -509,10 +544,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-16",
     "theme": "blue",
-    "availableTo": "2026-11-23T14:42:32.000Z"
+    "availableTo": "2026-11-23T14:42:32.000Z",
+    "endedAt": "2026-11-23"
   },
   {
     "id": "30th-anniversary-simplified-chinese-mewtwo-and-mew-257855146886",
@@ -654,10 +690,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-16",
     "theme": "blue",
-    "availableTo": "2026-11-23T13:08:51.000Z"
+    "availableTo": "2026-11-23T13:08:51.000Z",
+    "endedAt": "2026-11-23"
   },
   {
     "id": "delta-reign-booster-bundle-6-packs-new-sealed-257850540166",
@@ -1239,9 +1276,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-09",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-23"
   },
   {
     "id": "english-team-up-squirtle-23-181-lp-257843763676",
@@ -1335,9 +1373,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-09",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-23"
   },
   {
     "id": "english-farfetch-d-68-108-nm-257843540242",
