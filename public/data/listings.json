@@ -1,5 +1,38 @@
 [
   {
+    "id": "english-unbroken-bonds-marshadow-machamp-tag-team-257874116856",
+    "ebayItemId": "257874116856",
+    "title": "English Unbroken Bonds Marshadow & Machamp Tag Team 82/214 Near Mint",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 16.15,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/w~4AAeSw3SBq~3Nx/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/tfYAAeSwYLtq~3N6/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/tjkAAeSwsC5q~3OE/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/u3YAAeSwWcdq~3OQ/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257874116856?_skw=pokemon&hash=item3c0a7ec0f8:g:w~4AAeSw3SBq~3Nx",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-27",
+    "theme": "blue"
+  },
+  {
     "id": "yuka-morii-vintage-lickitung-aquapolis-e-reader-90-257873443264",
     "ebayItemId": "257873443264",
     "title": "Yuka Morii Vintage Lickitung Aquapolis E-Reader 90/147 MP  Read Desc.",
@@ -633,10 +666,11 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-19",
     "theme": "blue",
-    "availableTo": "2026-11-26T22:12:23.000Z"
+    "availableTo": "2026-11-26T22:12:23.000Z",
+    "endedAt": "2026-11-27"
   },
   {
     "id": "crimson-invasion-gengar-holofoil-38-111-near-mint-257858860793",
