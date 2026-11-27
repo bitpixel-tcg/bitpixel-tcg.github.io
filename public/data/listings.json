@@ -1,5 +1,36 @@
 [
   {
+    "id": "english-twilight-masquerade-greninja-ex-106-167-mi-257875416492",
+    "ebayItemId": "257875416492",
+    "title": "English Twilight Masquerade Greninja Ex 106/167 Mint Condition Read Desc.",
+    "description": "",
+    "game": "Pokémon",
+    "category": "Singles",
+    "productType": "Singles",
+    "language": "English",
+    "condition": "Ungraded",
+    "seller": "Blue Byte",
+    "price": {
+      "amount": 3.0,
+      "currency": "GBP",
+      "prefix": "Buy It Now"
+    },
+    "images": [
+      "https://i.ebayimg.com/images/g/DJIAAeSw-RZrCdmf/s-l1600.jpg",
+      "https://i.ebayimg.com/images/g/kf4AAeSwGxFrCdmo/s-l1600.jpg"
+    ],
+    "marketplace": "eBay",
+    "marketplaceUrl": "https://www.ebay.co.uk/itm/257875416492?_skw=pokemon&hash=item3c0a9295ac:g:DJIAAeSw-RZrCdmf",
+    "tags": [
+      "pokémon",
+      "singles"
+    ],
+    "featured": false,
+    "status": "available",
+    "createdAt": "2026-11-27",
+    "theme": "blue"
+  },
+  {
     "id": "english-unbroken-bonds-marshadow-machamp-tag-team-257874116856",
     "ebayItemId": "257874116856",
     "title": "English Unbroken Bonds Marshadow & Machamp Tag Team 82/214 Near Mint",
@@ -3038,9 +3069,10 @@
       "singles"
     ],
     "featured": false,
-    "status": "available",
+    "status": "sold",
     "createdAt": "2026-11-05",
-    "theme": "blue"
+    "theme": "blue",
+    "endedAt": "2026-11-27"
   },
   {
     "id": "vintage-english-ex-emerald-sceptile-10-106-257834572026",
